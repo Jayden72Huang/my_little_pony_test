@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<!--
+  网站地图文件 (Sitemap)
+
+  文件功能：列出网站所有重要页面的 URL，帮助搜索引擎爬虫发现和索引网站内容
+  文件目的：提升 SEO（搜索引擎优化），加快新页面被收录的速度
+
+  使用方式：
+  1. 部署后访问：https://your-domain.com/sitemap.xml
+  2. 提交到搜索引擎：Google Search Console、Bing Webmaster Tools 等
+  3. 在 robots.txt 中引用：Sitemap: https://your-domain.com/sitemap.xml
+
+  字段说明：
+  - <loc>: 页面的完整 URL（必填）
+  - <lastmod>: 页面最后修改时间（可选，ISO 8601 格式）
+  - <changefreq>: 页面更新频率（可选：always, hourly, daily, weekly, monthly, yearly, never）
+  - <priority>: 页面优先级（可选：0.0-1.0，默认 0.5）
+
+  注意事项：
+  - 记得将 your-domain.com 替换为实际域名
+  - 建议定期更新 lastmod 时间戳
+  - 对于动态网站，可以使用 next-sitemap 等工具自动生成
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首页 -->
+  <url>
+    <loc>https://your-domain.com/</loc>
+    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+  </url>
+  <!-- 博客页面 -->
+  <url>
+    <loc>https://your-domain.com/blog</loc>
+    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+  </url>
+  <!-- 案例展示页面 -->
+  <url>
+    <loc>https://your-domain.com/showcases</loc>
+    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+  </url>
+</urlset>

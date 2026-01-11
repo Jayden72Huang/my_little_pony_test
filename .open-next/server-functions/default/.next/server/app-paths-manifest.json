@@ -1,0 +1,23 @@
+{
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/guide/page": "app/guide/page.js",
+  "/[locale]/guides/character-popularity/page": "app/[locale]/guides/character-popularity/page.js",
+  "/[locale]/character-test/page": "app/[locale]/character-test/page.js",
+  "/[locale]/guides/filter-tutorial/page": "app/[locale]/guides/filter-tutorial/page.js",
+  "/[locale]/characters/page": "app/[locale]/characters/page.js",
+  "/[locale]/guides/idrlabs-comparison/page": "app/[locale]/guides/idrlabs-comparison/page.js",
+  "/[locale]/guides/page": "app/[locale]/guides/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/privacy/page": "app/[locale]/privacy/page.js",
+  "/[locale]/personality-test/page": "app/[locale]/personality-test/page.js",
+  "/[locale]/which-pony-are-you/page": "app/[locale]/which-pony-are-you/page.js",
+  "/[locale]/characters/[slug]/page": "app/[locale]/characters/[slug]/page.js",
+  "/[locale]/terms/page": "app/[locale]/terms/page.js",
+  "/[locale]/guides/how-accurate-is-mlp-test/page": "app/[locale]/guides/how-accurate-is-mlp-test/page.js",
+  "/[locale]/guides/best-mlp-quizzes/page": "app/[locale]/guides/best-mlp-quizzes/page.js",
+  "/[locale]/guides/character-traits-explained/page": "app/[locale]/guides/character-traits-explained/page.js",
+  "/[locale]/guides/mbti-types-mlp/page": "app/[locale]/guides/mbti-types-mlp/page.js"
+}

@@ -1,0 +1,201 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/app/_not-found/page-f06f7250f8270fc3.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/app/layout-68b335f425de060f.js"
+    ],
+    "/guide/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/app/guide/page-b0a4c5e70e8f1c3e.js"
+    ],
+    "/[locale]/layout": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/css/b6bac9013b78f0a1.css",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/88-8658dc649a5ddde7.js",
+      "static/chunks/app/[locale]/layout-92b2064316eb9f86.js"
+    ],
+    "/[locale]/guides/character-popularity/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/character-popularity/page-6ef7431e1cdb2ca9.js"
+    ],
+    "/[locale]/character-test/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/8-3aa23b1ab33554bc.js",
+      "static/chunks/451-faea4baed81953ea.js",
+      "static/chunks/app/[locale]/character-test/page-bb28c5fc50ca12d2.js"
+    ],
+    "/[locale]/guides/filter-tutorial/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/filter-tutorial/page-059cc6b5382bd935.js"
+    ],
+    "/[locale]/characters/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/app/[locale]/characters/page-d81a73e31e430907.js"
+    ],
+    "/[locale]/guides/idrlabs-comparison/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/idrlabs-comparison/page-3499121d99db9453.js"
+    ],
+    "/[locale]/guides/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/app/[locale]/guides/page-10ac756f572d4184.js"
+    ],
+    "/[locale]/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/8-3aa23b1ab33554bc.js",
+      "static/chunks/451-faea4baed81953ea.js",
+      "static/chunks/app/[locale]/page-1477bffb796c018e.js"
+    ],
+    "/[locale]/privacy/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/app/[locale]/privacy/page-b7ae1b24fd166c50.js"
+    ],
+    "/[locale]/personality-test/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/8-3aa23b1ab33554bc.js",
+      "static/chunks/451-faea4baed81953ea.js",
+      "static/chunks/app/[locale]/personality-test/page-e0f923694e397094.js"
+    ],
+    "/[locale]/which-pony-are-you/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/8-3aa23b1ab33554bc.js",
+      "static/chunks/451-faea4baed81953ea.js",
+      "static/chunks/app/[locale]/which-pony-are-you/page-14a9ebe4c6eb59c5.js"
+    ],
+    "/[locale]/characters/[slug]/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/970-4087448428d63b2b.js",
+      "static/chunks/app/[locale]/characters/[slug]/page-18e2e73204681fdc.js"
+    ],
+    "/[locale]/terms/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/app/[locale]/terms/page-9cc5df319a9443e8.js"
+    ],
+    "/[locale]/guides/how-accurate-is-mlp-test/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/how-accurate-is-mlp-test/page-761940c37ffbc60a.js"
+    ],
+    "/[locale]/guides/best-mlp-quizzes/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/best-mlp-quizzes/page-748213f929821b6d.js"
+    ],
+    "/[locale]/guides/character-traits-explained/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/character-traits-explained/page-251a3a1b82014f6c.js"
+    ],
+    "/[locale]/guides/mbti-types-mlp/page": [
+      "static/chunks/webpack-a903415f896b97a0.js",
+      "static/chunks/4bd1b696-4065b800a95c15b1.js",
+      "static/chunks/517-f952a5a22dc6c733.js",
+      "static/chunks/main-app-5389b61cf57917b0.js",
+      "static/chunks/463-0d107761f453313b.js",
+      "static/chunks/266-9f84511d187f83b4.js",
+      "static/chunks/822-807179a97d5fc181.js",
+      "static/chunks/app/[locale]/guides/mbti-types-mlp/page-f98e62459bef636b.js"
+    ]
+  }
+}

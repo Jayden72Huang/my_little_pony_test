@@ -1,0 +1,628 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "characters": "Karakterler",
+    "guides": "Rehberler",
+    "takeTest": "Testi Başlat",
+    "takeQuiz": "Testi Başlat",
+    "faq": "SSS",
+    "startTest": "Teste Başla",
+    "language": "Dil",
+    "theme": "Tema",
+    "guidesDropdown": {
+      "filterTest": {
+        "title": "My Little Pony Filtre Testi",
+        "description": "Filtre testine tam rehber"
+      },
+      "idrlabsComparison": {
+        "title": "IDRLabs vs Bizim Quiz",
+        "description": "Detaylı karşılaştırma rehberi"
+      },
+      "characterPopularity": {
+        "title": "Karakter Popülerlik İstatistikleri",
+        "description": "Hangi karakterlerin en popüler olduğunu görün"
+      }
+    }
+  },
+  "guidesPage": {
+    "title": "My Little Pony Rehberleri",
+    "description": "My Little Pony kişilik testleri hakkında bilmeniz gereken her şey",
+    "readGuide": "Rehberi Oku",
+    "breadcrumb": "Rehberler",
+    "relatedGuides": "İlgili Rehberler",
+    "ctaButton": "My Little Pony Testini Şimdi Yapın"
+  },
+  "guides": {
+    "filterTutorial": {
+      "title": "My Little Pony Filtre Testi Rehberi",
+      "description": "TikTok ve Instagram'daki viral My Little Pony filtresini nasıl kullanacağınızı öğrenin",
+      "date": "06 Ocak 2026"
+    },
+    "idrlabsComparison": {
+      "title": "IDRLabs vs Bizim MLP Testimiz",
+      "description": "Farklı my little pony test versiyonlarını karşılaştırın",
+      "date": "05 Ocak 2026"
+    },
+    "characterPopularity": {
+      "title": "Karakter Popülerlik İstatistikleri",
+      "description": "Verilerimize dayanarak hangi karakterlerin en popüler olduğunu görün",
+      "date": "02 Ocak 2026"
+    },
+    "bestQuizzes": {
+      "title": "En İyi MLP Quizleri 2026",
+      "description": "En iyi My Little Pony kişilik testlerinin küratörlü bir listesi",
+      "date": "01 Ocak 2026"
+    },
+    "traitsExplained": {
+      "title": "Karakter Özellikleri Açıklandı",
+      "description": "Zeka, nezaket ve diğer midilli özelliklerine derinlemesine daldırın",
+      "date": "28 Aralık 2025"
+    },
+    "accuracy": {
+      "title": "Test Ne Kadar Doğru?",
+      "description": "Kişilik eşleştirmemizin arkasındaki bilimi anlamak",
+      "date": "25 Aralık 2025"
+    },
+    "mbti": {
+      "title": "MLP MBTI Tipleri",
+      "description": "Her My Little Pony karakterine hangi MBTI tipinin ait olduğu",
+      "date": "20 Aralık 2025"
+    },
+    "readArticle": "Makaleyi Oku",
+    "sectionTitle": "My Little Pony Testi Hakkında 2026 En Son Rehberler",
+    "viewAll": "Tüm makaleleri görüntüle"
+  },
+  "hero": {
+    "badge": "My Little Pony Kişilik Testi",
+    "title": "My Little Pony Testi",
+    "subtitle": "My Little Pony Kişilik Testi - Hangi Pony'siniz?",
+    "description": "My little pony testimizi yapın ve Equestria'dan hangi sevilen karakterin kişiliğinizle eşleştiğini öğrenin! My little pony kişilik testimiz Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie veya Applejack olup olmadığınızı keşfetmenize yardımcı olur.",
+    "cta": "Hemen Testi Başlat",
+    "ctaSecondary": "Karakterlerle Tanış"
+  },
+  "quiz": {
+    "sectionTitle": "Kişilik Testimizi Yapın - My Little Pony Testi",
+    "sectionDescription": "Bu my little pony testinde 12 eğlenceli soruyu cevaplayın ve hangi my little pony karakterine en çok benzediğinizi keşfedin! My little pony kişilik testimiz cevaplarınıza göre anında doğru sonuçlar sağlar.",
+    "ui": {
+      "loading": "Soru yükleniyor...",
+      "calculating": "Midilli Eşleşmeniz Hesaplanıyor...",
+      "analyzing": "Kişilik özellikleriniz analiz ediliyor ✨",
+      "questionOf": "Soru {current} / {total}",
+      "percentComplete": "%{percent} Tamamlandı",
+      "previous": "Geri",
+      "submit": "Testi Bitir →",
+      "submitHelper": "Cevabınızı seçin ve sonuçlarınızı görmek için \"Testi Bitir\" düğmesine tıklayın",
+      "autoContinueHelper": "Otomatik olarak devam etmek için bir seçeneğe tıklayın"
+    },
+    "questions": {
+      "q1": {
+        "text": "Boş zamanınızı nasıl geçirmeyi tercih edersiniz?",
+        "options": [
+          "Kitap okumak veya yeni bir şeyler öğrenmek",
+          "Spor yapmak veya açık hava etkinlikleri",
+          "Hayvanlarla veya doğayla ilgilenmek",
+          "Sanat veya moda tasarımları oluşturmak",
+          "Parti vermek veya sosyalleşmek",
+          "Pratik projeler üzerinde çalışmak"
+        ]
+      },
+      "q2": {
+        "text": "Bir sorunla karşılaştığınızda eğiliminiz şudur:",
+        "options": [
+          "Tüm olası çözümleri araştırmak ve analiz etmek",
+          "Çok fazla düşünmeden hemen harekete geçmek",
+          "Önce herkesin duygularını düşünmek",
+          "En zarif veya şık çözümü bulmak",
+          "Onu eğlenceli bir şeye dönüştürmek",
+          "Sağduyu ve sıkı çalışma kullanmak"
+        ]
+      },
+      "q3": {
+        "text": "İdeal hafta sonu etkinliğiniz nedir?",
+        "options": [
+          "Bir kütüphaneyi veya müzeyi ziyaret etmek",
+          "Bir spor turnuvasında yarışmak",
+          "Doğada yürüyüş yapmak veya bir barınağı ziyaret etmek",
+          "Alışveriş yapmak veya bir moda defilesine katılmak",
+          "Arkadaşlar için bir partiye ev sahipliği yapmak",
+          "Aileye ev işlerinde yardım etmek"
+        ]
+      },
+      "q4": {
+        "text": "Arkadaşlarınız sizi nasıl tanımlar?",
+        "options": [
+          "Akıllı ve düzenli",
+          "Cesur ve maceracı",
+          "Nazik ve ilgili",
+          "Yaratıcı ve şık",
+          "Eğlenceli ve enerjik",
+          "Dürüst ve çalışkan"
+        ]
+      },
+      "q5": {
+        "text": "Bir arkadaşlıkta sizin için en önemli şey nedir?",
+        "options": [
+          "Entelektüel sohbetler",
+          "Her koşulda sadakat",
+          "Anlayış ve empati",
+          "Paylaşılan güzellik takdiri",
+          "Birlikte eğlenmek ve gülmek",
+          "Dürüstlük ve güven"
+        ]
+      },
+      "q6": {
+        "text": "Bir çiçek seçin:",
+        "options": [
+          "Mor leylak",
+          "Mavi gül",
+          "Sarı nergis",
+          "Beyaz orkide",
+          "Pembe lale",
+          "Turuncu ayçiçeği"
+        ]
+      },
+      "q7": {
+        "text": "Hayalinizdeki iş nedir?",
+        "options": [
+          "Öğretmen veya araştırmacı",
+          "Profesyonel sporcu veya pilot",
+          "Veteriner veya yaban hayatı uzmanı",
+          "Moda tasarımcısı veya sanatçı",
+          "Etkinlik planlayıcısı veya eğlence sanatçısı",
+          "Çiftçi veya inşaat işçisi"
+        ]
+      },
+      "q8": {
+        "text": "Stresle nasıl başa çıkarsınız?",
+        "options": [
+          "Detaylı bir plan yapıp ona uymak",
+          "Kararlılıkla ilerlemek",
+          "Yalnız kalarak enerji toplamak",
+          "Kendimi güzel bir şeyle ödüllendirmek",
+          "Gülüp geçmek ve pozitif kalmak",
+          "Sorunu çözmek için daha çok çalışmak"
+        ]
+      },
+      "q9": {
+        "text": "En büyük gücünüz nedir?",
+        "options": [
+          "Zeka ve problem çözme",
+          "Fiziksel zindelik ve cesaret",
+          "Empati ve şefkat",
+          "Yaratıcılık ve sanatsal yetenek",
+          "Başkalarını mutlu etmek",
+          "Sıkı çalışma ve güvenilirlik"
+        ]
+      },
+      "q10": {
+        "text": "Bir hava durumu seçin:",
+        "options": [
+          "Berrak yıldızlı gece",
+          "Hızlı hareket eden bulutlarla rüzgarlı",
+          "Nazik bahar yağmuru",
+          "Zarifçe yağan kar",
+          "Parlak güneşli gün",
+          "Sıcak hasat mevsimi havası"
+        ]
+      },
+      "q11": {
+        "text": "En büyük zayıflığınız nedir?",
+        "options": [
+          "Her şeyi aşırı düşünmek",
+          "Çok rekabetçi olmak",
+          "Çok utangaç veya çekingen olmak",
+          "Aşırı dramatik olmak",
+          "Olayları ciddiye almamak",
+          "Çok inatçı olmak"
+        ]
+      },
+      "q12": {
+        "text": "Sihirli gücünüz ne olurdu?",
+        "options": [
+          "Telekinizi ve gelişmiş büyü",
+          "Süper hız ve uçuş",
+          "Hayvanlarla iletişim kurmak",
+          "Güzel şeyler yaratmak",
+          "Başkalarını anında güldürmek",
+          "Süper güç ve dayanıklılık"
+        ]
+      }
+    }
+  },
+  "popularTests": {
+    "badge": "En Popüler",
+    "title": "My Little Pony Testinizi Seçin",
+    "description": "Zamanınıza ve ilgi alanlarınıza göre mükemmel testi seçin. Hızlı quizlerden derinlemesine kişilik analizlerine kadar!",
+    "personalityTest": {
+      "title": "Kişilik Testi",
+      "time": "3-5 dk",
+      "badge": "Derin Analiz",
+      "stats": "Ayda 390 arama",
+      "description": "Detaylı karakter eşleşmesi, özellik dökümleri ve uyumluluk içgörüleri ile derinlemesine MBTI tabanlı bir kişilik analizi alın.",
+      "feature1": "12 detaylı soru",
+      "feature2": "MBTI kişilik tipleri",
+      "feature3": "Kapsamlı sonuçlar",
+      "cta": "Kişilik Testini Başlat"
+    },
+    "characterTest": {
+      "title": "Karakter Testi",
+      "time": "2-3 dk",
+      "badge": "Davranışsal",
+      "stats": "Ayda 320 arama",
+      "description": "Farklı durumlarda nasıl davranacağınızı ortaya çıkaran senaryo tabanlı sorularla mükemmel pony'nizle eşleşin.",
+      "feature1": "Gerçek hayat senaryoları",
+      "feature2": "Davranışsal eşleşme",
+      "feature3": "Karakter karşılaştırmaları",
+      "cta": "Karakter Testini Başlat"
+    },
+    "quickQuiz": {
+      "title": "Hangi Pony'sin?",
+      "time": "2 dk",
+      "badge": "Hızlı",
+      "stats": "Ayda 110 arama",
+      "description": "Anında sonuçlar için süper hızlı quiz! Pony eşleşmenizi hızlıca keşfetmek ve arkadaşlarınızla paylaşmak istediğinizde mükemmel.",
+      "feature1": "Yıldırım hızında (2 dk)",
+      "feature2": "Anında sonuçlar",
+      "feature3": "Paylaşması kolay",
+      "cta": "Hızlı Quizi Başlat"
+    },
+    "helperTitle": "Hangi testi yapacağınızdan emin değil misiniz? 🤔",
+    "helperSubtitle": "Seçmenize yardımcı olacak kısa bir rehber:",
+    "guideDeep": "Derin İçgörüler mi İstiyorsunuz?",
+    "guideDeepDesc": "MBTI analizi için Kişilik Testini seçin",
+    "guideDeepCta": "Kişilik Testine Git →",
+    "guideScenario": "Senaryoları mı Seviyorsunuz?",
+    "guideScenarioDesc": "Davranışsal eşleşme için Karakter Testini yapın",
+    "guideScenarioCta": "Karakter Testine Git →",
+    "guideRush": "Aceleniz mi Var?",
+    "guideRushDesc": "Anında 2 dakikalık sonuçlar için Hangi Pony'yi deneyin",
+    "guideRushCta": "Hızlı Quize Git →"
+  },
+  "howItWorks": {
+    "title": "My Little Pony Testi Nasıl Çalışır",
+    "description": "My little pony kişilik testimiz, cevaplarınızı analiz ederek sizi Equestria'dan altı sevilen karakterden biriyle eşleştirir. Bu my little pony testi, doğru karakter eşleşmeleri sağlamak için gelişmiş algoritmalar kullanır.",
+    "step1Title": "1 Dakikada Kişilik Testimizi Yapın",
+    "step1Description": "My little pony testimiz tercihleriniz, değerleriniz ve günlük hayatta farklı durumlarla nasıl başa çıktığınız hakkında sorular sorar.",
+    "step2Title": "Pony Karakter Sonuçlarınızı Keşfedin",
+    "step2Description": "My little pony quiz sonuçlarınızı, cevaplarınıza uyan detaylı kişilik içgörüleri ve karakter özellikleriyle anında alın.",
+    "step3Title": "Test Sonuçlarınızı Kaydedin ve Paylaşın",
+    "step3Description": "My little pony kişilik testi sonuçlarınızı indirin ve karakter eşleşmenizi sosyal medya platformlarında arkadaşlarınızla paylaşın!"
+  },
+  "characters": {
+    "sectionTitle": "My Little Pony Karakter Testi Karakterleriyle Tanışın",
+    "sectionDescription": "My little pony karakter testimizde her pony'nin benzersiz kişilik özelliklerini, MBTI türünü ve karakteristiklerini keşfedin. Hangi karakterin kişiliğinize en iyi uyduğunu öğrenmek için my little pony kişilik testini yapın.",
+    "mbtiLabel": "MBTI:",
+    "viewProfile": "Profili Görüntüle",
+    "traits": {
+      "intelligence": "Zeka",
+      "kindness": "İyilik",
+      "sociability": "Sosyallik",
+      "determination": "Kararlılık",
+      "athleticism": "Atletizm",
+      "creativity": "Yaratıcılık"
+    },
+    "exploreAll": "Tüm My Little Pony Test Karakterlerini Keşfet",
+    "pageTitle": "My Little Pony Karakterleri",
+    "pageDescription": "My little pony testimizdeki altı karakterin benzersiz kişiliklerini keşfedin",
+    "ctaTitle": "Hangi Karakter Gözüküyorsun?",
+    "ctaDescription": "Mükemmel eşleşmenizi bulmak için my little pony kişilik testimizi yapın!",
+    "ctaButton": "Teste Başla →",
+    "breadcrumb": "Karakterler"
+  },
+  "about": {
+    "title": "My Little Pony Testi Nedir?",
+    "description": "My little pony testi, sizi sevilen animasyon dizisinin ikonik karakterlerinden biriyle eşleştiren bir kişilik quizidir. Diğer quizlerden farklı olarak, my little pony karakter testimiz kişilik özelliklerinizi analiz etmek ve mükemmel pony eşleşmenizi bulmak için sofistike bir puanlama sistemi kullanır. Bu my little pony testi eğlenceli, doğru ve paylaşılabilir olacak şekilde tasarlanmıştır.",
+    "whyTakeTitle": "Neden My Little Pony Quizimizi Yapmalısınız?",
+    "reason1Title": "Gerçek Kendinizi Keşfedin",
+    "reason1Description": "Hangi MLP karakterinin kişilik özelliklerinizi ve değerlerinizi yansıttığını öğrenin.",
+    "reason2Title": "Arkadaşlarınızla Paylaşın",
+    "reason2Description": "Sonuçları karşılaştırın ve siz ve arkadaşlarınızın hangi ponyler olduğunu görün!",
+    "reason3Title": "Dizi Bilgisi Gerekli Değil",
+    "reason3Description": "Quiz kişiliğe odaklanır, trivia değil - yeni başlayanlar ve hayranlar için mükemmel.",
+    "reason4Title": "Hızlı ve Eğlenceli",
+    "reason4Description": "Testi sadece 3-5 dakikada tamamlayın ve anında sonuç alın."
+  },
+  "faq": {
+    "title": "My Little Pony Testi SSS",
+    "description": "My little pony kişilik testimiz ve my little pony testi hakkında sık sorulan sorular",
+    "q1": "My little pony testi ne kadar sürer?",
+    "a1": "My little pony testi tamamlanması yaklaşık 3-5 dakika sürer. My little pony quizimiz sadece 12 soru içerir, bu nedenle çok fazla zaman harcamadan karakter eşleşmenizi hızlıca alacaksınız!",
+    "q2": "Bu my little pony quiz ücretsiz mi?",
+    "a2": "Evet! My little pony testimiz tamamen ücretsizdir. My little pony karakter testi kayıt, ödeme gerektirmez ve gizli maliyeti yoktur - sadece saf eğlence!",
+    "q3": "My little pony test sonuçlarımı paylaşabilir miyim?",
+    "a3": "Kesinlikle! My little pony karakter testini tamamladıktan sonra, my little pony quiz sonuçlarınızı resim olarak indirebilir veya doğrudan sosyal medya platformlarına paylaşabilirsiniz.",
+    "q4": "My Little Pony'yi iyi bilmiyorsam ne olur?",
+    "a4": "Sorun değil! My little pony testimiz uzun süredir hayran olsanız da diziye tamamen yeni olsanız da herkes için tasarlanmıştır. My little pony kişilik testi soruları dizi bilgisine değil, kişilik özelliklerinize odaklanır.",
+    "q5": "Bu my little pony testi IDRLabs testinden nasıl farklıdır?",
+    "a5": "Her ikisi de harika olsa da, my little pony testimiz sosyal medya için mükemmel olan hızlı, paylaşılabilir sonuçlara odaklanır. IDRLabs my little pony karakter testi daha detaylı psikolojik analiz sunar. Neyi tercih ettiğinize göre seçin!",
+    "q6": "My little pony quizini tekrar yapabilir miyim?",
+    "a6": "Evet! My little pony kişilik testini istediğiniz kadar tekrar yapmaktan çekinmeyin. Büyüdükçe ve geliştikçe my little pony test cevaplarınız zamanla değişebilir!"
+  },
+  "cta": {
+    "title": "Pony Eşleşmenizi Bulmaya Hazır mısınız?",
+    "description": "My Little Pony karakterlerini keşfeden binlerce hayranlara katılın! Testi şimdi yapın.",
+    "button": "My Little Pony Testini Şimdi Başlat"
+  },
+  "footer": {
+    "tagline": "Ücretsiz kişilik quizimizle My Little Pony karakterinizi keşfedin!",
+    "testSection": "Test",
+    "takeQuiz": "Testi Yap",
+    "howItWorks": "Nasıl çalışır",
+    "characters": "Karakterler",
+    "aboutSection": "Hakkında",
+    "faq": "SSS",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "disclaimer": "Bu eğlence amaçlı hayran yapımı bir kişilik quizidir. Tüm My Little Pony karakterleri Hasbro'nun mülkiyetindedir.",
+    "copyright": "© 2024 MLP Test. Tüm hakları saklıdır."
+  },
+  "characterData": {
+    "twilight-sparkle": {
+      "name": "Twilight Sparkle",
+      "title": "Arkadaşlık Prensesi",
+      "description": "Düzenli, çalışkan ve yeni şeyler öğrenmeyi seviyorsunuz. Twilight Sparkle gibi, sorunlara mantık ve araştırma ile yaklaşıyor, çevrenizdeki dünyayı daha iyi anlamak için her zaman bilgi arıyorsunuz."
+    },
+    "rainbow-dash": {
+      "name": "Rainbow Dash",
+      "title": "Sadakat Elementi",
+      "description": "Atletik, kendine güvenen ve rekabetçisiniz. Rainbow Dash gibi, hiçbir zorluktan geri adım atmıyor ve yaptığınız işte her zaman en iyisi olmaya çalışıyorsunuz."
+    },
+    "fluttershy": {
+      "name": "Fluttershy",
+      "title": "İyilik Elementi",
+      "description": "Nazik, empatik ve doğa ve hayvanlarla özel bir bağınız var. Fluttershy gibi, tüm canlılara nezaket gösteriyor, huzur ve uyuma değer veriyorsunuz."
+    },
+    "rarity": {
+      "name": "Rarity",
+      "title": "Cömertlik Elementi",
+      "description": "Yaratıcı, modayı takip eden, güzellik ve zarafet için keskin bir gözünüz var. Rarity gibi, hayattaki ince şeyleri takdir ediyor ve kendinizi sanat ve stil yoluyla ifade ediyorsunuz."
+    },
+    "pinkie-pie": {
+      "name": "Pinkie Pie",
+      "title": "Kahkaha Elementi",
+      "description": "Enerjik, iyimser ve başkalarını gülümsetmeyi seviyorsunuz. Pinkie Pie gibi, gittiğiniz her yere neşe ve kahkaha götürüyor ve parti vermeyi seviyorsunuz."
+    },
+    "applejack": {
+      "name": "Applejack",
+      "title": "Dürüstlük Elementi",
+      "description": "Çalışkan, dürüst ve güvenilirsiniz. Applejack gibi, aileye ve sıkı çalışmaya değer veriyor, ne olursa olsun her zaman doğruyu söylüyorsunuz."
+    },
+    "exploreAll": "Tüm My Little Pony Test Karakterlerini Keşfet"
+  },
+  "results": {
+    "verified": "Doğrulanmış Sonuç",
+    "harmonyElement": "Uyum Elementiniz",
+    "analysisReport": "Analiz Raporu",
+    "superpowers": "Süper Güçler",
+    "harmonySquad": "Uyum Ekibiniz",
+    "keyStrengths": "Temel Güçlü Yönler",
+    "soulSisters": "Ruh Kardeşleri",
+    "soulSistersDesc": "Muhtemelen sadece kendiniz olarak birinin gününü güzelleştirdiniz ve onlar size sonsuza dek minnettar.",
+    "alternativePath": "Alternatif Yol",
+    "alsoTraits": "Ayrıca {name} özelliklerine de sahipsiniz",
+    "secondaryMatch": "İkincil eşleşmeniz (%{percent}), {title}'ın temel felsefesiyle derin bir rezonans gösteriyor.",
+    "downloadReport": "Raporu İndir",
+    "preparing": "Hazırlanıyor...",
+    "share": "Arkadaşlarla Paylaş",
+    "retake": "Testi Tekrarla",
+    "masterTitle": "Arkadaşlık Ustası Olun",
+    "masterDesc": "{name}'in kişilik profiline derinlemesine dalın. Gizli sırlarını, ilişkilerini ve Equestria ruhunu nasıl somutlaştırdığını keşfedin.",
+    "exploreProfile": "Profili Keşfet",
+    "shareText": "My Little Pony Testinde ben {name} çıktım! {emoji} Midilli eşleşmeni bulmak için testi çöz!",
+    "copied": "Sonuç bağlantısı panoya kopyalandı!"
+  },
+  "characterProfile": {
+    "notFound": "Karakter bulunamadı",
+    "popularity": "Testi çözenlerin %{percent}'i",
+    "about": "{name} Hakkında",
+    "famousQuote": "Ünlü Sözü",
+    "personalityTraits": "Kişilik Özellikleri",
+    "keyStrengths": "Temel Güçlü Yönler",
+    "stats": "Karakter İstatistikleri",
+    "mightBe": "Şu özelliklere sahipseniz {name} olabilirsiniz...",
+    "exploreOther": "Diğer Karakterleri Keşfedin",
+    "findMatch": "Karakter Eşleşmenizi Bulun",
+    "takeTest": "My Little Pony Testini Çözün →"
+  },
+  "personalityTestPage": {
+    "badge": "Derin Kişilik Analizi",
+    "title": "My Little Pony Kişilik Testi",
+    "description": "Bilimsel olarak tasarlanmış my little pony kişilik testimiz aracılığıyla benzersiz kişiliğinizle gerçekten eşleşen My Little Pony karakterini keşfedin",
+    "ctaPrimary": "Kişilik Testini Başlat",
+    "ctaSecondary": "Karakterleri Görüntüle",
+    "stats": {
+      "testsTaken": "Yapılan Testler",
+      "rating": "Kullanıcı Puanı",
+      "free": "Ücretsiz"
+    },
+    "whySection": {
+      "title": "Neden My Little Pony Kişilik Testimiz?",
+      "description": "Temel quizlerden farklı olarak, my little pony kişilik testimiz sizi mükemmel karakterinizle eşleştirmek için gelişmiş kişilik psikolojisi kullanır",
+      "mbti": {
+        "title": "MBTI Tabanlı Analiz",
+        "description": "My little pony kişilik testimiz, sizi gerçek psikolojik özelliklere göre karakterlerle doğru bir şekilde eşleştirmek için Myers-Briggs kişilik boyutlarını kullanır"
+      },
+      "detailed": {
+        "title": "Detaylı Sonuçlar",
+        "description": "Güçlü yönler, ideal durumlar ve diğer karakterlerle uyumluluk dahil kapsamlı kişilik dökümleri alın - tamamen ücretsiz"
+      },
+      "allCharacters": {
+        "title": "Tüm Karakterler Dahil",
+        "description": "Diziden tüm ana karakterlerle eşleşin - Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie ve Applejack"
+      }
+    },
+    "quizSection": {
+      "title": "My Little Pony Kişilik Testini Yapın",
+      "description": "My little pony kişilik testi sonuçlarınızı keşfetmek için özenle tasarlanmış 12 soruyu yanıtlayın. Bu mlp kişilik testi yaklaşık 3-5 dakika sürer."
+    },
+    "socialProof": {
+      "testsTaken": "500B+",
+      "testsTakenLabel": "Yapılan Test",
+      "rating": "4.8★",
+      "ratingLabel": "Kullanıcı Puanı",
+      "free": "100%",
+      "freeLabel": "Ücretsiz"
+    },
+    "breadcrumb": "Kişilik Testi",
+    "home": "Ana Sayfa",
+    "personaTypes": {
+      "title": "My Little Pony Kişilik Tipleri",
+      "description": "My little pony kişilik testimiz sizi bu belirgin kişilik arketiplerinden biriyle eşleştirir",
+      "introverted": "📚 İçedönük ve Düşünceli Tipler",
+      "extroverted": "⚡ Dışadönük ve Aksiyon Odaklı Tipler",
+      "creative": "💎 Dengeli ve Yaratıcı Tip",
+      "learnMoreLabel": "MLP MBTI Tipleri Hakkında Daha Fazla Bilgi Edinin",
+      "viewProfile": "Profili Görüntüle",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "howItWorks": {
+      "title": "My Little Pony Kişilik Testimiz Nasıl Çalışır?",
+      "description": "Kişiliğinizi MLP karakterleriyle eşleştirmek için bilimsel olarak tasarlanmıştır",
+      "step1": {
+        "title": "Kişilik Boyutu Soruları",
+        "description": "Kişilik testimiz, temel kişilik boyutlarını değerlendiren 12 senaryo tabanlı soru sunar: içedönüklük vs dışadönüklük, düşünme vs hissetme, planlama vs kendiliğindenlik ve daha fazlası."
+      },
+      "step2": {
+        "title": "Gelişmiş Eşleştirme Algoritması",
+        "description": "Yanıtlarınız, kişilik profilinizi her bir My Little Pony karakterinin yerleşik özellikleriyle karşılaştıran sofistike bir algoritma kullanılarak analiz edilir."
+      },
+      "step3": {
+        "title": "Detaylı Kişilik Raporu",
+        "description": "Eşleşen karakteriniz, kişilik dökümünüz, güçlü yönleriniz, MBTI tipiniz ve diğer karakterlerle uyumluluğunuzu içeren sonuçlarınızı alın. Tamamen ücretsiz!"
+      }
+    },
+    "faq": {
+      "title": "My Little Pony Kişilik Testi SSS",
+      "description": "Mlp kişilik testimiz hakkında sık sorulan sorular",
+      "q1": "Bu my little pony kişilik testi ne kadar doğru?",
+      "a1": "Kişilik testimiz, yerleşik kişilik psikolojisi ilkeleri kullanılarak tasarlanmıştır ve 500.000'den fazla kullanıcı tarafından 4.8/5 memnuniyet puanıyla yapılmıştır.",
+      "q2": "Bunu diğer my little pony testlerinden ayıran nedir?",
+      "a2": "Hızlı BuzzFeed tarzı quizlerin aksine, mlp kişilik testimiz bilimsel kişilik değerlendirme yöntemlerini kullanır.",
+      "q3": "Sonuç olarak hangi karakterleri alabilirim?",
+      "a3": "Kişilik testimiz sizi ana altı karakterden herhangi biriyle eşleştirebilir: Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie veya Applejack.",
+      "q4": "Kişilik testi ne kadar sürer?",
+      "a4": "My little pony kişilik testi, 12 özenle tasarlanmış soruyla yaklaşık 3-5 dakika sürer.",
+      "q5": "Test gerçekten ücretsiz mi?",
+      "a5": "Evet! My little pony kişilik testimiz gizli maliyetler veya kayıt gereksinimleri olmadan %100 ücretsizdir.",
+      "q6": "Kişilik testini tekrar yapabilir miyim?",
+      "a6": "Kesinlikle! Mlp kişilik testimizi istediğiniz kadar tekrar yapabilirsiniz."
+    },
+    "relatedTitle": "Daha Fazla My Little Pony Testi Deneyin",
+    "ctaSection": {
+      "title": "Kişiliğinizi Keşfetmeye Hazır mısınız?",
+      "description": "My Little Pony karakter eşleşmesini keşfeden 500.000'den fazla hayrana katılın!",
+      "button": "Şimdi Kişilik Testini Yap ✨",
+      "backToHome": "Ana Sayfaya Dön →"
+    }
+  },
+  "characterTestPage": {
+    "badge": "Karakter Eşleştirme Testi",
+    "title": "My Little Pony Karakter Testi",
+    "description": "İnteraktif my little pony karakter testimizle mükemmel My Little Pony karakter eşleşmenizi keşfedin - Hangi midillinin sizin benzersiz özelliklerinizi paylaştığını öğrenin!",
+    "ctaPrimary": "Karakter Testini Başlat",
+    "ctaSecondary": "Karakterlere Göz At",
+    "socialProof": {
+      "questions": "12",
+      "questionsLabel": "Soru",
+      "characters": "6",
+      "charactersLabel": "Karakter",
+      "duration": "3dk",
+      "durationLabel": "Süre"
+    },
+    "whySection": {
+      "title": "Neden My Little Pony Karakter Testimizi Yapmalısınız?",
+      "description": "My little pony karakter testimiz, Equestria ruh eşinizi keşfetmenin en doğru yoludur",
+      "accurate": {
+        "title": "Doğru Eşleştirme",
+        "description": "Gerçek dünyadaki tepkilerinizi karakter davranışlarıyla eşleştirmek için senaryo tabanlı sorular kullanıyoruz."
+      },
+      "fun": {
+        "title": "Eğlenceli ve Hızlı",
+        "description": "Her yaştan hayran için eğlenceli olacak şekilde tasarlandı, tamamlanması sadece 3 dakika sürer."
+      },
+      "shareable": {
+        "title": "Arkadaşlarla Paylaş",
+        "description": "Sosyal medyada paylaşmak ve arkadaşlarınızla karşılaştırmak için güzel bir sonuç kartı alın!"
+      }
+    },
+    "quizSection": {
+      "title": "My Little Pony Karakter Testinize Başlayın",
+      "description": "Midilli eşleşmenizle tanışmaya hazır mısınız? Bu hızlı soruları yanıtlayın!"
+    },
+    "howItWorks": {
+      "title": "Karakter Testi Nasıl Çalışır?",
+      "description": "Midilli eşleşmenizi keşfetmek için basit adımlar",
+      "step1": "Davranış sorularını yanıtlayın",
+      "step2": "Algoritma özelliklerinizi eşleştirir",
+      "step3": "Karakter profilinizi alın"
+    },
+    "breadcrumb": "Karakter Testi",
+    "home": "Ana Sayfa"
+  },
+  "whichPonyPage": {
+    "badge": "Hızlı 5 Dakikalık Quiz",
+    "title": "Hangi My Little Pony'niz?",
+    "description": "Hızlı hangi my little pony'siniz quiz'imizi yapın ve Equestria'dan hangi karakterin kişiliğinizle eşleştiğini anında keşfedin!",
+    "ctaPrimary": "Şimdi Quiz'e Başla",
+    "banner": "2 Dakikada Öğrenin!",
+    "funStats": {
+      "fast": "2dk",
+      "fastLabel": "Süper Hızlı",
+      "popular": "Viral",
+      "popularLabel": "Şu An Trend",
+      "accurate": "99%",
+      "accurateLabel": "Eşleşme Oranı"
+    },
+    "whySection": {
+      "title": "Neden Bu Hızlı Quiz?",
+      "description": "My Little Pony eşleşmenizi almanın en hızlı yolu",
+      "fast": {
+        "title": "Hızlı ve Eğlenceli",
+        "description": "Sonucunuzu anında almak için sadece 5 soru."
+      },
+      "accurate": {
+        "title": "Yeterince Doğru",
+        "description": "Yüksek karakter eşleştirme doğruluğunu korurken hız için optimize edilmiştir."
+      },
+      "shareable": {
+        "title": "Sosyal Medya İçin Mükemmel",
+        "description": "WhatsApp, TikTok ve Instagram Hikayeleri'nde paylaşılmak üzere tasarlandı."
+      }
+    },
+    "breadcrumb": "Hangi Pony'siniz",
+    "home": "Ana Sayfa"
+  },
+  "privacyPage": {
+    "title": "Gizlilik Politikası",
+    "intro": "Gizliliğiniz bizim için önemlidir. Bu Gizlilik Politikası, My Little Pony Test web sitemizi kullandığınızda kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+    "section1Title": "1. Topladığımız Bilgiler",
+    "section1Content": "Adınız, e-posta adresiniz veya telefon numaranız gibi kişisel tanımlama bilgisi (KTB) toplamıyoruz. Quiz sonuçlarınız tarayıcınızda yerel olarak veya sonuç görselinizi oluşturmak için sunucumuzda geçici olarak işlenir.",
+    "section2Title": "2. Çerezler",
+    "section2Content": "Sitemizdeki deneyiminizi geliştirmek için çerezler kullanabiliriz. Bu çerezler, içeriğimizle nasıl etkileşim kurduğunuzu anlamamıza ve tercihlerinizi kaydetmemize yardımcı olur.",
+    "section3Title": "3. Üçüncü Taraf Bağlantıları",
+    "section3Content": "Web sitemiz üçüncü taraf sitelere bağlantılar içerebilir. Bu web sitelerinin gizlilik uygulamalarından veya içeriinden sorumlu değiliz.",
+    "section4Title": "4. Bu Politikadaki Değişiklikler",
+    "section4Content": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayınlanacaktır.",
+    "lastUpdated": "Son güncelleme: 09 Ocak 2026"
+  },
+  "termsPage": {
+    "title": "Hizmet Şartları",
+    "intro": "My Little Pony Test web sitesine erişerek veya kullanarak, bu Hizmet Şartlarına bağlı kalmayı kabul etmiş olursunuz.",
+    "section1Title": "1. Sitenin Kullanımı",
+    "section1Content": "Bu web sitesi sadece eğlence amaçlıdır. Siteyi kişisel, ticari olmayan kullanım için kullanabilirsiniz. Siteyi herhangi bir yasa dışı amaçla kullanmamayı kabul edersiniz.",
+    "section2Title": "2. Fikri Mülkiyet",
+    "section2Content": "Tüm My Little Pony karakterleri, isimleri ve ilgili işaretler Hasbro'nun ticari markalarıdır. Bu site bir hayran yapımı projedir ve Hasbro ile bağlantılı değildir veya onaylanmamıştır.",
+    "section3Title": "3. Garantilerin Reddi",
+    "section3Content": "Site \"olduğu gibi\" sunulmaktadır. Test sonuçlarının doğruluğunu veya güvenilirliğini garanti etmiyoruz.",
+    "section4Title": "4. Sorumluluğun Sınırlandırılması",
+    "section4Content": "Sitenin kullanımından doğan herhangi bir zarardan hiçbir durumda sorumlu olmayacağız.",
+    "lastUpdated": "Son güncelleme: 09 Ocak 2026"
+  },
+  "common": {
+    "home": "Ana Sayfa",
+    "learnMore": "Daha Fazla Bilgi",
+    "viewProfile": "Profili Görüntüle",
+    "startTest": "Testi Başlat",
+    "backToHome": "Ana Sayfaya Dön"
+  }
+}

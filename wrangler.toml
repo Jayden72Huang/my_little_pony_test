@@ -1,0 +1,17 @@
+name = "my-little-pony-test"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# 自定义域名配置
+# 注意：如果域名已有 DNS 记录，需要先通过 Dashboard 删除，或使用 Dashboard 添加自定义域名
+[[routes]]
+pattern = "mylittleponytest.xyz"
+custom_domain = true
+
+[[routes]]
+pattern = "www.mylittleponytest.xyz"
+custom_domain = true
+
+[assets]
+directory = "out"
+binding = "ASSETS"

@@ -1,0 +1,578 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "characters": "Personajes",
+    "guides": "Guías",
+    "takeTest": "Hacer test",
+    "takeQuiz": "Hacer quiz",
+    "faq": "Preguntas frecuentes",
+    "startTest": "Iniciar test",
+    "language": "Idioma",
+    "theme": "Tema",
+    "guidesDropdown": {
+      "filterTest": {
+        "title": "Test de filtro My Little Pony",
+        "description": "Guía completa del test de filtro"
+      },
+      "idrlabsComparison": {
+        "title": "IDRLabs vs nuestro quiz",
+        "description": "Guía de comparación detallada"
+      },
+      "characterPopularity": {
+        "title": "Estadísticas de popularidad de personajes",
+        "description": "Ve qué personajes son más populares"
+      }
+    }
+  },
+  "guidesPage": {
+    "title": "Guías de My Little Pony",
+    "description": "Todo lo que necesitas saber sobre los tests de personalidad de My Little Pony",
+    "readGuide": "Leer guía",
+    "breadcrumb": "Guías",
+    "relatedGuides": "Guías relacionadas",
+    "ctaButton": "Hacer el test de My Little Pony ahora"
+  },
+  "guides": {
+    "filterTutorial": {
+      "title": "Guía del test de filtro My Little Pony",
+      "description": "Aprende a usar el filtro viral de My Little Pony en TikTok e Instagram",
+      "date": "06 ene 2026"
+    },
+    "idrlabsComparison": {
+      "title": "IDRLabs vs nuestro test MLP",
+      "description": "Compara diferentes versiones del test de My Little Pony",
+      "date": "05 ene 2026"
+    },
+    "characterPopularity": {
+      "title": "Estadísticas de popularidad de personajes",
+      "description": "Ve qué personajes son más populares según nuestros datos",
+      "date": "02 ene 2026"
+    },
+    "bestQuizzes": {
+      "title": "Mejores Quizzes MLP 2026",
+      "description": "Lista curada de los mejores tests de My Little Pony",
+      "date": "01 ene 2026"
+    },
+    "traitsExplained": {
+      "title": "Rasgos de personajes explicados",
+      "description": "Inmersión profunda en inteligencia, amabilidad y otros rasgos",
+      "date": "28 dic 2025"
+    },
+    "accuracy": {
+      "title": "¿Qué tan preciso es el test?",
+      "description": "Entendiendo la ciencia detrás de nuestro emparejamiento",
+      "date": "25 dic 2025"
+    },
+    "mbti": {
+      "title": "Tipos MBTI de MLP",
+      "description": "A qué tipo MBTI pertenece cada personaje",
+      "date": "20 dic 2025"
+    },
+    "readArticle": "Leer artículo",
+    "sectionTitle": "Últimas guías 2026 sobre el test My Little Pony",
+    "viewAll": "Ver todos los artículos"
+  },
+  "hero": {
+    "badge": "Test de personalidad My Little Pony",
+    "title": "Test My Little Pony",
+    "subtitle": "Test de personalidad My Little Pony - ¿Qué pony eres?",
+    "description": "¡Haz nuestro test my little pony y descubre qué personaje querido de Equestria coincide con tu personalidad! Nuestro test de personalidad my little pony te ayuda a descubrir si eres Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie o Applejack.",
+    "cta": "Comenzar quiz ahora",
+    "ctaSecondary": "Conoce los personajes"
+  },
+  "quiz": {
+    "sectionTitle": "Haz nuestro test de personalidad - Test My Little Pony",
+    "sectionDescription": "¡Responde 12 preguntas divertidas en este test my little pony y descubre a qué personaje my little pony te pareces más! Nuestro test de personalidad my little pony proporciona resultados instantáneos y precisos basados en tus respuestas.",
+    "ui": {
+      "loading": "Cargando pregunta...",
+      "calculating": "Calculando tu pareja Pony...",
+      "analyzing": "Analizando tus rasgos de personalidad ✨",
+      "questionOf": "Pregunta {current} de {total}",
+      "percentComplete": "{percent}% Completado",
+      "previous": "Anterior",
+      "submit": "Enviar Quiz →",
+      "submitHelper": "Selecciona tu respuesta y haz clic en \"Enviar Quiz\" para ver tus resultados",
+      "autoContinueHelper": "Haz clic en una opción para continuar automáticamente"
+    },
+    "questions": {
+      "q1": {
+        "text": "¿Cómo prefieres pasar tu tiempo libre?",
+        "options": [
+          "Leer libros o aprender algo nuevo",
+          "Hacer deporte o actividades al aire libre",
+          "Cuidar animales o la naturaleza",
+          "Crear arte o diseños de moda",
+          "Organizar fiestas o socializar",
+          "Trabajar en proyectos prácticos"
+        ]
+      },
+      "q2": {
+        "text": "Al enfrentar un problema, tiendes a:",
+        "options": [
+          "Investigar y analizar todas las posibles soluciones",
+          "Tomar acción inmediata sin pensarlo demasiado",
+          "Considerar los sentimientos de todos primero",
+          "Encontrar la solución más elegante o con estilo",
+          "Convertirlo en algo divertido",
+          "Usar el sentido común y el trabajo duro"
+        ]
+      },
+      "q3": {
+        "text": "¿Cuál es tu actividad ideal para el fin de semana?",
+        "options": [
+          "Visitar una biblioteca o museo",
+          "Competir en un torneo deportivo",
+          "Hacer senderismo en la naturaleza o visitar un santuario",
+          "Ir de compras o asistir a un desfile de moda",
+          "Organizar una fiesta para amigos",
+          "Ayudar a la familia con los quehaceres"
+        ]
+      },
+      "q4": {
+        "text": "Tus amigos te describirían como:",
+        "options": [
+          "Inteligente y organizado",
+          "Audaz y aventurero",
+          "Amable y cariñoso",
+          "Creativo y con estilo",
+          "Divertido y enérgico",
+          "Honesto y trabajador"
+        ]
+      },
+      "q5": {
+        "text": "¿Qué es lo que más te importa en una amistad?",
+        "options": [
+          "Conversaciones intelectuales",
+          "Lealtad en las buenas y en las malas",
+          "Comprensión y empatía",
+          "Aprecio compartido por la belleza",
+          "Divertirse y reír juntos",
+          "Honestidad y confianza"
+        ]
+      },
+      "q6": {
+        "text": "Elige una flor:",
+        "options": [
+          "Lila púrpura",
+          "Rosa azul",
+          "Narciso amarillo",
+          "Orquídea blanca",
+          "Tulipán rosa",
+          "Girasol naranja"
+        ]
+      },
+      "q7": {
+        "text": "¿Cuál es el trabajo de tus sueños?",
+        "options": [
+          "Maestro o investigador",
+          "Atleta profesional o piloto",
+          "Veterinario o experto en vida silvestre",
+          "Diseñador de moda o artista",
+          "Planificador de eventos o animador",
+          "Granjero o trabajador de la construcción"
+        ]
+      },
+      "q8": {
+        "text": "¿Cómo manejas el estrés?",
+        "options": [
+          "Hacer un plan detallado y seguirlo",
+          "Seguir adelante con determinación",
+          "Tomar tiempo a solas para recargar energías",
+          "Consentirme con algo agradable",
+          "Reírme de ello y mantenerme positivo",
+          "Trabajar más duro para resolver el problema"
+        ]
+      },
+      "q9": {
+        "text": "¿Cuál es tu mayor fortaleza?",
+        "options": [
+          "Inteligencia y resolución de problemas",
+          "Aptitud física y valentía",
+          "Empatía y compasión",
+          "Creatividad y talento artístico",
+          "Hacer felices a los demás",
+          "Trabajo duro y confiabilidad"
+        ]
+      },
+      "q10": {
+        "text": "Elige un clima:",
+        "options": [
+          "Noche estrellada despejada",
+          "Ventoso con nubes rápidas",
+          "Lluvia suave de primavera",
+          "Nieve elegante cayendo",
+          "Día soleado y brillante",
+          "Clima cálido de temporada de cosecha"
+        ]
+      },
+      "q11": {
+        "text": "¿Cuál es tu mayor debilidad?",
+        "options": [
+          "Sobrepensar todo",
+          "Ser demasiado competitivo",
+          "Ser demasiado tímido o apocado",
+          "Ser excesivamente dramático",
+          "No tomar las cosas en serio",
+          "Ser demasiado terco"
+        ]
+      },
+      "q12": {
+        "text": "¿Cuál sería tu poder mágico?",
+        "options": [
+          "Telequinesis y magia avanzada",
+          "Súper velocidad y vuelo",
+          "Comunicarse con los animales",
+          "Crear cosas hermosas",
+          "Hacer reír a los demás instantáneamente",
+          "Súper fuerza y resistencia"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo funciona el test My Little Pony",
+    "description": "Nuestro test de personalidad my little pony analiza tus respuestas para emparejarte con uno de los seis personajes queridos de Equestria. Este test my little pony utiliza algoritmos avanzados para proporcionar coincidencias precisas de personajes.",
+    "step1Title": "Haz nuestro test de personalidad en 1 minuto",
+    "step1Description": "Nuestro test my little pony hace preguntas sobre tus preferencias, valores y cómo manejas diferentes situaciones en la vida diaria.",
+    "step2Title": "Explora los resultados de tu personaje pony",
+    "step2Description": "Obtén los resultados de tu quiz my little pony inmediatamente con información detallada sobre la personalidad y rasgos de carácter que coinciden con tus respuestas.",
+    "step3Title": "Guarda y comparte los resultados de tu test",
+    "step3Description": "¡Descarga los resultados de tu test de personalidad my little pony y comparte tu personaje coincidente con amigos en plataformas de redes sociales!"
+  },
+  "characters": {
+    "sectionTitle": "Conoce los personajes del test de personajes My Little Pony",
+    "sectionDescription": "Descubre los rasgos de personalidad únicos de cada pony, tipo MBTI y características en nuestro test de personajes my little pony. Haz el test de personalidad my little pony para descubrir qué personaje coincide mejor con tu personalidad.",
+    "mbtiLabel": "MBTI:",
+    "viewProfile": "Ver Perfil",
+    "traits": {
+      "intelligence": "Inteligencia",
+      "kindness": "Bondad",
+      "sociability": "Sociabilidad",
+      "determination": "Determinación",
+      "athleticism": "Atletismo",
+      "creativity": "Creatividad"
+    },
+    "exploreAll": "Explora todos los personajes del test My Little Pony",
+    "pageTitle": "Personajes de My Little Pony",
+    "pageDescription": "Descubre las personalidades únicas de los seis personajes de nuestro test de My Little Pony",
+    "ctaTitle": "¿Qué personaje eres?",
+    "ctaDescription": "¡Haz nuestro test de personalidad de My Little Pony para encontrar tu pareja perfecta!",
+    "ctaButton": "Hacer el Quiz →",
+    "breadcrumb": "Personajes"
+  },
+  "about": {
+    "title": "¿Qué es un test My Little Pony?",
+    "description": "Un test my little pony es un quiz de personalidad que te empareja con uno de los personajes icónicos de la querida serie animada. A diferencia de otros quizzes, nuestro test de personajes my little pony utiliza un sofisticado sistema de puntuación para analizar tus rasgos de personalidad y encontrar tu pony perfecto. Este test my little pony está diseñado para ser divertido, preciso y compartible.",
+    "whyTakeTitle": "¿Por qué hacer nuestro quiz My Little Pony?",
+    "reason1Title": "Descubre tu verdadero yo",
+    "reason1Description": "Aprende qué personaje MLP refleja tus rasgos de personalidad y valores.",
+    "reason2Title": "Comparte con amigos",
+    "reason2Description": "¡Compara resultados y ve qué ponys son tú y tus amigos!",
+    "reason3Title": "No se requiere conocimiento del show",
+    "reason3Description": "El quiz se enfoca en la personalidad, not en trivia - perfecto para principiantes y fanáticos por igual.",
+    "reason4Title": "Rápido y divertido",
+    "reason4Description": "Completa el test en solo 3-5 minutos y obtén resultados instantáneos."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes del test My Little Pony",
+    "description": "Preguntas comunes sobre nuestro test de personalidad my little pony y test my little pony",
+    "q1": "¿Cuánto tiempo toma el test my little pony?",
+    "a1": "El test my little pony toma aproximadamente 3-5 minutos en completarse. ¡Nuestro quiz my little pony presenta solo 12 preguntas, así que obtendrás tu personaje coincidente rápidamente sin gastar demasiado tiempo!",
+    "q2": "¿Este quiz my little pony es gratis?",
+    "a2": "¡Sí! Nuestro test my little pony es completamente gratis. El test de personajes my little pony no requiere registro, no requiere pago y no tiene costos ocultos - ¡solo diversión pura!",
+    "q3": "¿Puedo compartir mis resultados del test my little pony?",
+    "a3": "¡Absolutamente! Después de completar el test de personajes my little pony, puedes descargar los resultados de tu quiz my little pony como una imagen o compartir directamente en plataformas de redes sociales.",
+    "q4": "¿Qué pasa si no conozco bien My Little Pony?",
+    "a4": "¡No hay problema! Nuestro test my little pony está diseñado para todos, ya seas un fanático de toda la vida o completamente nuevo en la serie. Las preguntas del test de personalidad my little pony se enfocan en tus rasgos de personalidad, no en conocimiento del show.",
+    "q5": "¿Cómo es diferente este test my little pony del test de IDRLabs?",
+    "a5": "Aunque ambos son geniales, nuestro test my little pony se enfoca en resultados rápidos y compartibles perfectos para redes sociales. El test de personajes my little pony de IDRLabs ofrece un análisis psicológico más detallado. ¡Elige según lo que prefieras!",
+    "q6": "¿Puedo volver a hacer el quiz my little pony?",
+    "a6": "¡Sí! Siéntete libre de volver a hacer el test de personalidad my little pony tantas veces como quieras. ¡Tus respuestas del test my little pony pueden cambiar con el tiempo a medida que creces y te desarrollas!"
+  },
+  "cta": {
+    "title": "¿Listo para encontrar tu pony coincidente?",
+    "description": "¡Únete a miles de fanáticos que descubrieron su personaje My Little Pony! Haz el test ahora.",
+    "button": "Comenzar test My Little Pony ahora"
+  },
+  "popularTests": {
+    "badge": "Más Populares",
+    "title": "Elige tu Test de My Little Pony",
+    "description": "Elige el test perfecto basado en tu tiempo e intereses. ¡Desde quizzes rápidos hasta análisis profundos de personalidad!",
+    "personalityTest": {
+      "title": "Test de Personalidad",
+      "time": "3-5 min",
+      "badge": "Análisis Profundo",
+      "stats": "390 búsquedas/mes",
+      "description": "Obtén un análisis de personalidad profundo basado en MBTI con coincidencias detalladas de personajes, desglose de rasgos e información de compatibilidad.",
+      "feature1": "12 preguntas detalladas",
+      "feature2": "Tipos de personalidad MBTI",
+      "feature3": "Resultados exhaustivos",
+      "cta": "Iniciar Test de Personalidad"
+    },
+    "characterTest": {
+      "title": "Test de Personaje",
+      "time": "2-3 min",
+      "badge": "Conductual",
+      "stats": "320 búsquedas/mes",
+      "description": "Encuentra tu pony ideal a través de preguntas basadas en escenarios que revelan cómo actuarías en diferentes situaciones.",
+      "feature1": "Escenarios de la vida real",
+      "feature2": "Coincidencia conductual",
+      "feature3": "Comparaciones de personajes",
+      "cta": "Iniciar Test de Personaje"
+    },
+    "quickQuiz": {
+      "title": "¿Qué Pony Eres?",
+      "time": "2 min",
+      "badge": "Rápido",
+      "stats": "110 búsquedas/mes",
+      "description": "¡Quiz súper rápido para resultados instantáneos! Perfecto cuando quieres descubrir rápidamente tu pony y compartirlo con amigos.",
+      "feature1": "Súper rápido (2 min)",
+      "feature2": "Resultados instantáneos",
+      "feature3": "Fácil de compartir",
+      "cta": "Iniciar Quiz Rápido"
+    },
+    "helperTitle": "¿No estás seguro de qué test tomar? 🤔",
+    "helperSubtitle": "Aquí tienes una guía rápida para ayudarte a elegir:",
+    "guideDeep": "¿Quieres Información Profunda?",
+    "guideDeepDesc": "Elige el Test de Personalidad para análisis MBTI",
+    "guideDeepCta": "Ir al Test de Personalidad →",
+    "guideScenario": "¿Te gustan los escenarios?",
+    "guideScenarioDesc": "Haz el Test de Personaje para coincidencia conductual",
+    "guideScenarioCta": "Ir al Test de Personaje →",
+    "guideRush": "¿Tienes prisa?",
+    "guideRushDesc": "Prueba ¿Qué Pony para resultados instantáneos de 2 min",
+    "guideRushCta": "Ir al Quiz Rápido →"
+  },
+  "characterData": {
+    "twilight-sparkle": {
+      "name": "Twilight Sparkle",
+      "title": "Princesa de la Amistad",
+      "description": "Eres organizado, estudioso y te encanta aprender cosas nuevas. Al igual que Twilight Sparkle, abordas los problemas con lógica e investigación, siempre buscando conocimiento para entender mejor el mundo que te rodea."
+    },
+    "rainbow-dash": {
+      "name": "Rainbow Dash",
+      "title": "Elemento de la Lealtad",
+      "description": "Eres atlético, seguro de ti mismo y competitivo. Al igual que Rainbow Dash, nunca te echas atrás ante un desafío y siempre te esfuerzas por ser el mejor en lo que haces."
+    },
+    "fluttershy": {
+      "name": "Fluttershy",
+      "title": "Elemento de la Amabilidad",
+      "description": "Eres amable, empático y tienes una conexión especial con la naturaleza y los animales. Al igual que Fluttershy, muestras amabilidad a todas las criaturas y valoras la paz y la armonía."
+    },
+    "rarity": {
+      "name": "Rarity",
+      "title": "Elemento de la Generosidad",
+      "description": "Eres creativo, elegante y tienes buen ojo para la belleza y la sofisticación. Al igual que Rarity, aprecias las cosas finas de la vida y te expresas a través del arte y el estilo."
+    },
+    "pinkie-pie": {
+      "name": "Pinkie Pie",
+      "title": "Elemento de la Risa",
+      "description": "Eres enérgico, optimista y te encanta hacer sonreír a los demás. Al igual que Pinkie Pie, llevas alegría y risas a donde quiera que vayas y te encantan las fiestas."
+    },
+    "applejack": {
+      "name": "Applejack",
+      "title": "Elemento de la Honestidad",
+      "description": "Eres trabajador, honesto y confiable. Al igual que Applejack, valoras a la familia, el trabajo duro y siempre dices la verdad sin importar qué."
+    },
+    "exploreAll": "Explora todos los personajes del test My Little Pony"
+  },
+  "results": {
+    "verified": "Resultado Verificado",
+    "harmonyElement": "Tu Elemento de la Armonía",
+    "analysisReport": "Informe de Análisis",
+    "superpowers": "Superpoderes",
+    "harmonySquad": "Tu Escuadrón de la Armonía",
+    "keyStrengths": "Fortalezas Clave",
+    "soulSisters": "Almas Gemelas",
+    "soulSistersDesc": "Probablemente hayas mejorado el día de alguien simplemente siendo tú mismo, y te estarán eternamente agradecidos.",
+    "alternativePath": "Camino Alternativo",
+    "alsoTraits": "También tienes rasgos de {name}",
+    "secondaryMatch": "Tu pareja secundaria ({percent}%) muestra profundas resonancias con la filosofía central de {title}.",
+    "downloadReport": "Descargar Informe",
+    "preparing": "Preparando...",
+    "share": "Compartir con Amigos",
+    "retake": "Repetir Quiz",
+    "masterTitle": "Conviértete en un Maestro de la Amistad",
+    "masterDesc": "Sumérgete profundamente en el perfil de personalidad de {name}. Descubre sus secretos ocultos, relaciones y cómo encarnan el espíritu de Equestria.",
+    "exploreProfile": "Explorar Perfil",
+    "shareText": "¡Soy {name} en el Test de My Little Pony! {emoji} ¡Haz el quiz para encontrar tu pareja pony!",
+    "copied": "¡Enlace del resultado copiado al portapapeles!"
+  },
+  "footer": {
+    "tagline": "¡Descubre tu personaje My Little Pony con nuestro quiz de personalidad gratis!",
+    "testSection": "Test",
+    "takeQuiz": "Hacer Quiz",
+    "howItWorks": "Cómo funciona",
+    "characters": "Personajes",
+    "aboutSection": "Acerca de",
+    "faq": "Preguntas Frecuentes",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "disclaimer": "Este es un test de personalidad hecho por fans con fines de entretenimiento. Todos los personajes de My Little Pony son propiedad de Hasbro.",
+    "copyright": "© 2024 MLP Test. Todos los derechos reservados."
+  },
+  "personalityTestPage": {
+    "badge": "Análisis de personalidad profundo",
+    "title": "Test de personalidad My Little Pony",
+    "description": "Descubre qué personaje de My Little Pony realmente coincide con tu personalidad única a través de nuestro test de personalidad my little pony diseñado científicamente",
+    "ctaPrimary": "Iniciar test de personalidad",
+    "ctaSecondary": "Ver personajes",
+    "socialProof": {
+      "testsTaken": "500K+",
+      "testsTakenLabel": "Tests realizados",
+      "rating": "4.8★",
+      "ratingLabel": "Calificación",
+      "free": "100%",
+      "freeLabel": "Gratis"
+    },
+    "whySection": {
+      "title": "¿Por qué nuestro test de personalidad My Little Pony?",
+      "description": "A diferencia de los quizzes básicos, nuestro test de personalidad my little pony utiliza psicología de personalidad avanzada para emparejarte con tu personaje perfecto",
+      "mbti": {
+        "title": "Análisis basado en MBTI",
+        "description": "Nuestro test de personalidad my little pony utiliza las dimensiones de personalidad Myers-Briggs para emparejarte con precisión con personajes basados en rasgos psicológicos reales"
+      },
+      "detailed": {
+        "title": "Resultados detallados",
+        "description": "Obtén desgloses completos de personalidad incluyendo fortalezas, situaciones ideales y compatibilidad con otros personajes - completamente gratis"
+      },
+      "allCharacters": {
+        "title": "Todos los personajes cubiertos",
+        "description": "Emparéjate con todos los personajes principales de la serie - Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie y Applejack"
+      }
+    },
+    "quizSection": {
+      "title": "Haz el test de personalidad My Little Pony",
+      "description": "Responde 12 preguntas cuidadosamente diseñadas para descubrir tus resultados del test de personalidad my little pony. Este test mlp toma aproximadamente 3-5 minutos."
+    },
+    "breadcrumb": "Test de personalidad",
+    "home": "Inicio",
+    "personaTypes": {
+      "title": "Tipos de personalidad My Little Pony",
+      "description": "Nuestro test coincide con estos arquetipos distintivos",
+      "learnMore": "Saber más"
+    },
+    "howItWorks": {
+      "title": "¿Cómo funciona nuestro test?",
+      "step1": {
+        "title": "Preguntas de dimensiones"
+      },
+      "step2": {
+        "title": "Algoritmo avanzado"
+      },
+      "step3": {
+        "title": "Informe detallado"
+      }
+    },
+    "faq": {
+      "title": "Preguntas frecuentes del test",
+      "q1": "¿Qué tan preciso es?",
+      "a1": "Muy preciso basado en psicología."
+    }
+  },
+  "characterTestPage": {
+    "badge": "Test de coincidencia de personajes",
+    "title": "Test de personajes My Little Pony",
+    "description": "¡Descubre tu coincidencia perfecta de personaje My Little Pony con nuestro test interactivo de personajes my little pony - Descubre qué pony comparte tus rasgos únicos!",
+    "ctaPrimary": "Iniciar test de personajes",
+    "ctaSecondary": "Ver personajes",
+    "socialProof": {
+      "questions": "12",
+      "questionsLabel": "Preguntas",
+      "characters": "6",
+      "charactersLabel": "Personajes",
+      "duration": "3m",
+      "durationLabel": "Duración"
+    },
+    "whySection": {
+      "title": "¿Por qué nuestro test de personajes?",
+      "accurate": {
+        "title": "Coincidencia precisa"
+      },
+      "fun": {
+        "title": "Rápido y divertido"
+      },
+      "shareable": {
+        "title": "Compartible"
+      }
+    },
+    "breadcrumb": "Test de personajes",
+    "home": "Inicio"
+  },
+  "whichPonyPage": {
+    "badge": "Quiz rápido de 5 minutos",
+    "title": "¿Qué My Little Pony eres?",
+    "subtitle": "¡Descúbrelo en 2 minutos!",
+    "description": "¡Haz nuestro quiz rápido de qué my little pony eres y descubre instantáneamente qué personaje de Equestria coincide con tu personalidad!",
+    "ctaPrimary": "Iniciar quiz ahora",
+    "banner": "¡Descúbrelo en 2 minutos!",
+    "funStats": {
+      "fast": "2min",
+      "fastLabel": "Súper rápido",
+      "popular": "Viral",
+      "popularLabel": "Trending",
+      "accurate": "99%",
+      "accurateLabel": "Coincidencia"
+    },
+    "whySection": {
+      "title": "¿Por qué un quiz rápido?",
+      "fast": {
+        "title": "Rápido y divertido"
+      },
+      "accurate": {
+        "title": "Preciso"
+      },
+      "shareable": {
+        "title": "Perfecto para redes"
+      }
+    },
+    "breadcrumb": "Qué pony eres",
+    "home": "Inicio"
+  },
+  "privacyPage": {
+    "title": "Política de privacidad",
+    "intro": "Tu privacidad es importante para nosotros. Esta Política de privacidad explica cómo recopilamos, usamos y protegemos tu información personal cuando usas nuestro sitio web Test My Little Pony.",
+    "section1Title": "1. Información que recopilamos",
+    "section1Content": "No recopilamos ninguna información de identificación personal (PII) como tu nombre, dirección de correo electrónico o número de teléfono. Los resultados de tu quiz se procesan localmente en tu navegador o temporalmente en nuestro servidor para generar tu imagen de resultado.",
+    "section2Title": "2. Cookies",
+    "section2Content": "Podemos usar cookies para mejorar tu experiencia en nuestro sitio. Estas cookies nos ayudan a entender cómo interactúas con nuestro contenido y nos permiten guardar tus preferencias.",
+    "section3Title": "3. Enlaces de terceros",
+    "section3Content": "Nuestro sitio web puede contener enlaces a sitios de terceros. No somos responsables de las prácticas de privacidad ni del contenido de estos sitios web.",
+    "section4Title": "4. Cambios en esta política",
+    "section4Content": "Podemos actualizar nuestra Política de privacidad de vez en cuando. Cualquier cambio se publicará en esta página.",
+    "lastUpdated": "Última actualización: 09 de enero de 2026"
+  },
+  "termsPage": {
+    "title": "Términos de Servicio",
+    "intro": "Al acceder o utilizar el sitio web My Little Pony Test, usted acepta estar sujeto a estos Términos de Servicio.",
+    "section1Title": "1. Uso del Sitio",
+    "section1Content": "Este sitio web es solo para fines de entretenimiento. Puede utilizar el sitio para uso personal y no comercial. Usted acepta no utilizar el sitio para ningún propósito ilegal.",
+    "section2Title": "2. Propiedad Intelectual",
+    "section2Content": "Todos los personajes, nombres y marcas relacionadas de My Little Pony son marcas registradas de Hasbro. Este sitio es un proyecto realizado por fans y no está afiliado ni respaldado por Hasbro.",
+    "section3Title": "3. Renuncia de Garantías",
+    "section3Content": "El sitio se proporciona \"tal cual\" sin ninguna garantía. No garantizamos la exactitud o confiabilidad de los resultados del quiz.",
+    "section4Title": "4. Limitación de Responsabilidad",
+    "section4Content": "En ningún caso seremos responsables de los daños que surjan de su uso del sitio.",
+    "lastUpdated": "Última actualización: 09 de enero de 2026"
+  },
+  "characterProfile": {
+    "notFound": "Personaje no encontrado",
+    "popularity": "{percent}% de los participantes",
+    "about": "Acerca de {name}",
+    "famousQuote": "Frase famosa",
+    "personalityTraits": "Rasgos de personalidad",
+    "keyStrengths": "Fortalezas clave",
+    "stats": "Estadísticas del personaje",
+    "mightBe": "Podrías ser {name} si eres...",
+    "exploreOther": "Explorar otros personajes",
+    "findMatch": "Encuentra tu pareja de personaje",
+    "takeTest": "Haz el test de My Little Pony →"
+  },
+  "common": {
+    "home": "Inicio",
+    "learnMore": "Saber más",
+    "viewProfile": "Ver perfil",
+    "startTest": "Iniciar test",
+    "backToHome": "Volver al inicio"
+  }
+}

@@ -1,0 +1,19 @@
+# HTTP 响应头配置文件
+# 文件功能：为静态资源配置 HTTP 缓存策略
+# 文件目的：优化网站性能，减少重复请求，提升用户体验
+# 适用平台：Netlify、Vercel 等支持 _headers 文件的静态部署平台
+#
+# Cache-Control 说明：
+# - public: 允许 CDN 和浏览器缓存
+# - max-age=31536000: 缓存时间为 1 年（365天）
+# - immutable: 告诉浏览器资源不会改变，无需重新验证
+
+# Next.js 构建生成的静态资源（JS、CSS 等）
+# 这些文件带有哈希值，文件名变化时内容才变化，可以长期缓存
+/_next/static/*
+  Cache-Control: public,max-age=31536000,immutable
+
+# 图片资源目录
+# 静态图片文件，可以长期缓存以提升加载速度
+/imgs/*
+  Cache-Control: public,max-age=31536000,immutable

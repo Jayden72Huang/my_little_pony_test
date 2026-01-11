@@ -1,0 +1,85 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import Navigation from "./components/Navigation";
+import { getSiteUrl } from "./utils/site";
+import Script from "next/script";
+import { ThemeProvider } from "./components/ThemeProvider";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
+  title: "My Little Pony Test - Which Pony Are You? | Free Character Quiz",
+  description: "Take the My Little Pony test to discover which character you are! Are you Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie, or Applejack? Free personality quiz with shareable results.",
+  keywords: [
+    "my little pony test",
+    "my little pony filter test",
+    "my little pony character test",
+    "which pony are you",
+    "mlp personality quiz",
+    "my little pony quiz",
+    "mlp character quiz",
+    "my little pony personality test"
+  ],
+  authors: [{ name: "MLP Test" }],
+  openGraph: {
+    title: "My Little Pony Test - Which Pony Are You?",
+    description: "Discover which My Little Pony character matches your personality! Take our free test and find your pony match.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "My Little Pony Test - Which Pony Are You?",
+    description: "Take the My Little Pony personality quiz to find your character match!",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/mlp-logo.png", type: "image/png" },
+    ],
+    apple: "/mlp-logo.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className="antialiased font-sans">
+        {/* Google AdSense - 使用 beforeInteractive 策略确保脚本在 head 中加载 */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7779254174392960"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
+        <ThemeProvider>
+          <Navigation />
+          {children}
+        </ThemeProvider>
+        {/* Google Analytics (gtag.js) */}
+        <div style={{ display: "none" }} aria-hidden="true">
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-8L7CPZ0TR9"
+            strategy="afterInteractive"
+          />
+          <Script id="google-gtag" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-8L7CPZ0TR9');
+            `}
+          </Script>
+        </div>
+      </body>
+    </html>
+  );
+}
