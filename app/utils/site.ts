@@ -7,9 +7,9 @@ export function getSiteUrl(): string {
     return explicit.replace(/\/+$/, "");
   }
 
-  // 使用 www 作为主域名（canonical domain）
-  // 非 www 域名会通过 Vercel 重定向到 www
-  return "https://www.mylittleponytest.xyz";
+  // 使用 mylittleponytest.xyz 作为主域名（canonical domain）
+  // www 域名会通过 Vercel 重定向到非 www
+  return "https://mylittleponytest.xyz";
 }
 
 
