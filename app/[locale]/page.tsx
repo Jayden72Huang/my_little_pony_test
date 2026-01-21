@@ -20,8 +20,69 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
   const tCta = await getTranslations('cta');
   const tFooter = await getTranslations('footer');
 
+  // FAQ Schema for SEO
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": tFaq('q1'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a1').replace(/<[^>]*>/g, '')
+        }
+      },
+      {
+        "@type": "Question",
+        "name": tFaq('q2'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a2').replace(/<[^>]*>/g, '')
+        }
+      },
+      {
+        "@type": "Question",
+        "name": tFaq('q3'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a3').replace(/<[^>]*>/g, '')
+        }
+      },
+      {
+        "@type": "Question",
+        "name": tFaq('q4'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a4').replace(/<[^>]*>/g, '')
+        }
+      },
+      {
+        "@type": "Question",
+        "name": tFaq('q5'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a5').replace(/<[^>]*>/g, '')
+        }
+      },
+      {
+        "@type": "Question",
+        "name": tFaq('q6'),
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": tFaq('a6').replace(/<[^>]*>/g, '')
+        }
+      }
+    ]
+  };
+
   return (
     <main className="min-h-screen">
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Hero Section */}
       <section
         className="relative text-white py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-[#9D5AC2] via-[#FF8FCC] to-[#3B88C3]"
@@ -140,13 +201,13 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Personality Test */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Personality Test - 主测试 */}
             <Link href={`/${locale}/personality-test`} className="group block">
               <div className="bg-white dark:bg-zinc-800 rounded-3xl overflow-hidden shadow-lg border-2 border-transparent hover:border-[#9D5AC2] transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
-                <div className="h-48 bg-gradient-to-br from-[#9D5AC2] to-[#FF8FCC] relative overflow-hidden">
+                <div className="h-56 bg-gradient-to-br from-[#9D5AC2] to-[#FF8FCC] relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-8xl opacity-20">🧠</span>
+                    <span className="text-9xl opacity-20">🧠</span>
                   </div>
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
                     <span className="font-bold text-[#9D5AC2] text-sm">{tPopular('personalityTest.time')}</span>
@@ -155,32 +216,32 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
                     <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-xs font-bold">⭐ {tPopular('personalityTest.badge')}</span>
                   </div>
                 </div>
-                <div className="p-6 flex-1 flex flex-col">
+                <div className="p-8 flex-1 flex flex-col">
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-3">
                     <span>🔥</span>
                     <span className="font-semibold">{tPopular('personalityTest.stats')}</span>
                   </div>
-                  <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-3 group-hover:text-[#9D5AC2] transition-colors">
+                  <h3 className="text-3xl font-black text-gray-900 dark:text-white mb-4 group-hover:text-[#9D5AC2] transition-colors">
                     {tPopular('personalityTest.title')}
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4 flex-1">
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 flex-1 text-lg">
                     {tPopular('personalityTest.description')}
                   </p>
-                  <div className="space-y-2 mb-4">
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
                       <span>{tPopular('personalityTest.feature1')}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
                       <span>{tPopular('personalityTest.feature2')}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
                       <span>{tPopular('personalityTest.feature3')}</span>
                     </div>
                   </div>
-                  <div className="inline-flex items-center gap-2 text-[#9D5AC2] font-bold group-hover:gap-3 transition-all">
+                  <div className="inline-flex items-center gap-2 text-[#9D5AC2] font-bold text-lg group-hover:gap-3 transition-all">
                     <span>{tPopular('personalityTest.cta')}</span>
                     <span>→</span>
                   </div>
@@ -188,137 +249,49 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
               </div>
             </Link>
 
-            {/* Character Test */}
-            <Link href={`/${locale}/character-test`} className="group block">
+            {/* Characters Gallery */}
+            <Link href={`/${locale}/characters`} className="group block">
               <div className="bg-white dark:bg-zinc-800 rounded-3xl overflow-hidden shadow-lg border-2 border-transparent hover:border-[#3B88C3] transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
-                <div className="h-48 bg-gradient-to-br from-[#3B88C3] to-[#9BD5F5] relative overflow-hidden">
+                <div className="h-56 bg-gradient-to-br from-[#3B88C3] to-[#9BD5F5] relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-8xl opacity-20">🎯</span>
-                  </div>
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
-                    <span className="font-bold text-[#3B88C3] text-sm">{tPopular('characterTest.time')}</span>
+                    <span className="text-9xl opacity-20">🎭</span>
                   </div>
                   <div className="absolute bottom-4 left-4">
-                    <span className="bg-blue-400 text-white px-3 py-1 rounded-full text-xs font-bold">🎯 {tPopular('characterTest.badge')}</span>
+                    <span className="bg-blue-400 text-white px-3 py-1 rounded-full text-xs font-bold">🎯 {tCharacters('exploreAll')}</span>
                   </div>
                 </div>
-                <div className="p-6 flex-1 flex flex-col">
+                <div className="p-8 flex-1 flex flex-col">
                   <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-3">
-                    <span>🔥</span>
-                    <span className="font-semibold">{tPopular('characterTest.stats')}</span>
+                    <span>✨</span>
+                    <span className="font-semibold">6 {tCharacters('sectionTitle')}</span>
                   </div>
-                  <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-3 group-hover:text-[#3B88C3] transition-colors">
-                    {tPopular('characterTest.title')}
+                  <h3 className="text-3xl font-black text-gray-900 dark:text-white mb-4 group-hover:text-[#3B88C3] transition-colors">
+                    {tCharacters('sectionTitle')}
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4 flex-1">
-                    {tPopular('characterTest.description')}
+                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 flex-1 text-lg">
+                    {tCharacters('sectionDescription')}
                   </p>
-                  <div className="space-y-2 mb-4">
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
-                      <span>{tPopular('characterTest.feature1')}</span>
+                      <span>Detailed character profiles</span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
-                      <span>{tPopular('characterTest.feature2')}</span>
+                      <span>MBTI personality types</span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                    <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                       <span className="text-green-500">✓</span>
-                      <span>{tPopular('characterTest.feature3')}</span>
+                      <span>Trait comparisons</span>
                     </div>
                   </div>
-                  <div className="inline-flex items-center gap-2 text-[#3B88C3] font-bold group-hover:gap-3 transition-all">
-                    <span>{tPopular('characterTest.cta')}</span>
+                  <div className="inline-flex items-center gap-2 text-[#3B88C3] font-bold text-lg group-hover:gap-3 transition-all">
+                    <span>{tCharacters('exploreAll')}</span>
                     <span>→</span>
                   </div>
                 </div>
               </div>
             </Link>
-
-            {/* Which Pony Are You */}
-            <Link href={`/${locale}/which-pony-are-you`} className="group block">
-              <div className="bg-white dark:bg-zinc-800 rounded-3xl overflow-hidden shadow-lg border-2 border-transparent hover:border-[#FF8FCC] transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
-                <div className="h-48 bg-gradient-to-br from-[#FF8FCC] to-[#FFD1EC] relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-8xl opacity-20">⚡</span>
-                  </div>
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
-                    <span className="font-bold text-[#FF8FCC] text-sm">{tPopular('quickQuiz.time')}</span>
-                  </div>
-                  <div className="absolute bottom-4 left-4">
-                    <span className="bg-pink-400 text-white px-3 py-1 rounded-full text-xs font-bold">⚡ {tPopular('quickQuiz.badge')}</span>
-                  </div>
-                </div>
-                <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-3">
-                    <span>🔥</span>
-                    <span className="font-semibold">{tPopular('quickQuiz.stats')}</span>
-                  </div>
-                  <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-3 group-hover:text-[#FF8FCC] transition-colors">
-                    {tPopular('quickQuiz.title')}
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4 flex-1">
-                    {tPopular('quickQuiz.description')}
-                  </p>
-                  <div className="space-y-2 mb-4">
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                      <span className="text-green-500">✓</span>
-                      <span>{tPopular('quickQuiz.feature1')}</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                      <span className="text-green-500">✓</span>
-                      <span>{tPopular('quickQuiz.feature2')}</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                      <span className="text-green-500">✓</span>
-                      <span>{tPopular('quickQuiz.feature3')}</span>
-                    </div>
-                  </div>
-                  <div className="inline-flex items-center gap-2 text-[#FF8FCC] font-bold group-hover:gap-3 transition-all">
-                    <span>{tPopular('quickQuiz.cta')}</span>
-                    <span>→</span>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          {/* Comparison Helper */}
-          <div className="mt-12 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-3xl p-8 border border-purple-100 dark:border-purple-800">
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                {tPopular('helperTitle')}
-              </h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                {tPopular('helperSubtitle')}
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-4 text-center">
-              <div className="bg-white dark:bg-zinc-800 rounded-2xl p-6">
-                <div className="text-4xl mb-3">🎓</div>
-                <h4 className="font-bold text-gray-900 dark:text-white mb-2">{tPopular('guideDeep')}</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">{tPopular('guideDeepDesc')}</p>
-                <Link href={`/${locale}/personality-test`} className="text-[#9D5AC2] font-semibold text-sm hover:underline">
-                  {tPopular('guideDeepCta')}
-                </Link>
-              </div>
-              <div className="bg-white dark:bg-zinc-800 rounded-2xl p-6">
-                <div className="text-4xl mb-3">🎬</div>
-                <h4 className="font-bold text-gray-900 dark:text-white mb-2">{tPopular('guideScenario')}</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">{tPopular('guideScenarioDesc')}</p>
-                <Link href={`/${locale}/character-test`} className="text-[#3B88C3] font-semibold text-sm hover:underline">
-                  {tPopular('guideScenarioCta')}
-                </Link>
-              </div>
-              <div className="bg-white dark:bg-zinc-800 rounded-2xl p-6">
-                <div className="text-4xl mb-3">⚡</div>
-                <h4 className="font-bold text-gray-900 dark:text-white mb-2">{tPopular('guideRush')}</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">{tPopular('guideRushDesc')}</p>
-                <Link href={`/${locale}/which-pony-are-you`} className="text-[#FF8FCC] font-semibold text-sm hover:underline">
-                  {tPopular('guideRushCta')}
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </section>

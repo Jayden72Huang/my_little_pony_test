@@ -9,17 +9,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'guides.idrlabsComparison' });
 
   return {
-    title: t('title') + " - Complete Comparison 2026",
-    description: t('description'),
+    title: "IDRLabs My Little Pony Test vs Our Test - Which is Better? (2026)",
+    description: "Comparing IDRLabs MLP test with our personality quiz. See accuracy, features, and results differences. Free alternative to IDRLabs pony test with detailed analysis.",
     keywords: [
-      "my little pony test idrlabs",
       "idrlabs my little pony",
+      "my little pony test idrlabs",
+      "pony test idrlabs",
+      "idrlabs mlp test",
       "mlp test comparison",
       "my little pony test",
       "idrlabs personality test",
       "mlp personality quiz",
-      "mlp character test"
+      "alternative to idrlabs pony test"
     ],
+    openGraph: {
+      title: "IDRLabs vs Our MLP Test - Detailed Comparison",
+      description: "Which My Little Pony test is better? Compare IDRLabs with our free alternative.",
+      type: "article",
+    },
   };
 }
 

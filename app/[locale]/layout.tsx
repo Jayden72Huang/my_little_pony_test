@@ -28,6 +28,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       description: metadata.description,
       type: "website",
       locale: locale === 'en' ? 'en_US' : locale === 'tr' ? 'tr_TR' : locale === 'pl' ? 'pl_PL' : locale === 'es-MX' ? 'es_MX' : 'pt_BR',
+      url: `${getSiteUrl()}/${locale}`,
+      siteName: "My Little Pony Test",
+      images: [
+        {
+          url: `${getSiteUrl()}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: metadata.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
@@ -46,9 +56,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       follow: true,
     },
     alternates: {
-      canonical: locale === 'en' ? getSiteUrl() : `${getSiteUrl()}/${locale}`,
+      canonical: `${getSiteUrl()}/${locale}`,
       languages: {
-        'en': getSiteUrl(),
+        'en': `${getSiteUrl()}/en`,
         'tr': `${getSiteUrl()}/tr`,
         'pl': `${getSiteUrl()}/pl`,
         'es-MX': `${getSiteUrl()}/es-MX`,

@@ -7,8 +7,9 @@ export function getSiteUrl(): string {
     return explicit.replace(/\/+$/, "");
   }
 
-  // 优先使用你的正式域名，而不是 Vercel 的临时预览域名
-  return "https://mylittleponytest.xyz";
+  // 使用 www 作为主域名（canonical domain）
+  // 非 www 域名会通过 Vercel 重定向到 www
+  return "https://www.mylittleponytest.xyz";
 }
 
 

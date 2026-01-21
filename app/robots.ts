@@ -12,6 +12,21 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        // 添加爬虫速率限制，避免过度爬取
+        crawlDelay: 1,
+      },
+      // 屏蔽一些不必要的爬虫
+      {
+        userAgent: "GPTBot",
+        disallow: "/",
+      },
+      {
+        userAgent: "CCBot",
+        disallow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        disallow: "/",
       },
     ],
     sitemap: `${siteUrl}/sitemap.xml`,
