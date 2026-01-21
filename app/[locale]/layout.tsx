@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       description: metadata.description,
       type: "website",
       locale: locale === 'en' ? 'en_US' : locale === 'tr' ? 'tr_TR' : locale === 'pl' ? 'pl_PL' : locale === 'es-MX' ? 'es_MX' : 'pt_BR',
-      url: `${getSiteUrl()}/${locale}`,
+      url: locale === 'en' ? getSiteUrl() : `${getSiteUrl()}/${locale}`,
       siteName: "My Little Pony Test",
       images: [
         {
@@ -56,9 +56,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
       follow: true,
     },
     alternates: {
-      canonical: `${getSiteUrl()}/${locale}`,
+      canonical: locale === 'en' ? getSiteUrl() : `${getSiteUrl()}/${locale}`,
       languages: {
-        'en': `${getSiteUrl()}/en`,
+        'en': getSiteUrl(),                    // 英语：https://www.mylittleponytest.xyz
         'tr': `${getSiteUrl()}/tr`,
         'pl': `${getSiteUrl()}/pl`,
         'es-MX': `${getSiteUrl()}/es-MX`,

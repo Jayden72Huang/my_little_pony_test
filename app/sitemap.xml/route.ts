@@ -35,8 +35,11 @@ function generateMultilingualUrls(
   const isoDate = now.toISOString();
 
   return locales.map((locale) => {
-    // 所有语言都使用前缀，与 middleware 的 localePrefix: 'always' 保持一致
-    const url = `${siteUrl}/${locale}${path}`;
+    // 英语不使用前缀（根域名权重最高），其他语言使用前缀
+    // 与 middleware 的 localePrefix: 'as-needed' 保持一致
+    const url = locale === 'en'
+      ? `${siteUrl}${path}`                // 英语：https://www.mylittleponytest.xyz/
+      : `${siteUrl}/${locale}${path}`;     // 其他：https://www.mylittleponytest.xyz/tr/
 
     return {
       url,

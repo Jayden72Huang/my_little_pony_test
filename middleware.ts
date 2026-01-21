@@ -4,7 +4,7 @@ import { locales, defaultLocale } from './i18n';
 export default createMiddleware({
   locales,
   defaultLocale,
-  localePrefix: 'always', // 所有语言都使用前缀，包括英语 /en
+  localePrefix: 'as-needed', // 英语不使用前缀，其他语言使用前缀
   localeDetection: true // 自动检测用户浏览器语言
 });
 
