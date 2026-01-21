@@ -121,11 +121,10 @@ function generateSitemapData() {
   const isoDate = new Date(now.toISOString().split('.')[0] + 'Z');
 
   // 基础路由（多语言）
+  // 注意：已删除 character-test 和 which-pony-are-you，它们会301重定向到 personality-test
   const baseRoutes = [
     ...generateMultilingualUrls('/', 1, 'weekly'),
     ...generateMultilingualUrls('/personality-test', 0.9, 'weekly'),
-    ...generateMultilingualUrls('/character-test', 0.9, 'weekly'),
-    ...generateMultilingualUrls('/which-pony-are-you', 0.9, 'weekly'),
     ...generateMultilingualUrls('/characters', 0.9, 'weekly'),
     ...generateMultilingualUrls('/guides', 0.8, 'weekly'),
     ...generateMultilingualUrls('/privacy', 0.5, 'yearly'),
