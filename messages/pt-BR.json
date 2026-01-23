@@ -555,6 +555,110 @@
     "findMatch": "Encontre sua combinação de personagem",
     "takeTest": "Fazer o teste de My Little Pony →"
   },
+  "characterDeepDive": {
+    "twilightSparkle": {
+      "metaTitle": "Twilight Sparkle Personality: Complete MBTI Analysis & Traits",
+      "metaDescription": "Deep dive into Twilight Sparkle's ISTJ personality type, magical abilities, and character development. Discover if you share traits with the Princess of Friendship.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Twilight as ISTJ",
+        "intro": "Twilight Sparkle exemplifies the ISTJ personality type - The Inspector. Her methodical approach to magic, love for organization, and dedication to duty perfectly align with this personality archetype.",
+        "sections": [
+          {"trait": "Introverted (I)", "description": "While Twilight values her friendships deeply, she recharges through solitary study and reflection. Her initial reluctance to attend social events and preference for books over parties demonstrates classic introversion.", "example": "In 'Lesson Zero,' Twilight's anxiety about missing a friendship report shows how she processes challenges internally before seeking help."},
+          {"trait": "Sensing (S)", "description": "Twilight relies on concrete facts, proven methods, and detailed research. She trusts what she can observe, measure, and document - whether it's spell formulas or friendship lessons.", "example": "Her approach to solving problems always involves consulting books, taking notes, and following established magical principles rather than improvisation."},
+          {"trait": "Thinking (T)", "description": "Logic and objective analysis guide Twilight's decisions. She values truth and fairness, sometimes struggling with emotions but ultimately balancing logic with empathy.", "example": "When organizing events or solving conflicts, Twilight creates detailed plans and checklists, approaching problems systematically."},
+          {"trait": "Judging (J)", "description": "Structure, planning, and organization are Twilight's comfort zone. She thrives with schedules, deadlines, and clear expectations - disorder causes her stress.", "example": "Her famous checklists, color-coded schedules, and meticulous library organization showcase her need for order and structure."}
+        ]
+      },
+      "memorableMoments": [
+        {"title": "Learning Friendship's Magic", "description": "From a solitary student to Princess of Friendship, Twilight's journey shows how intelligence paired with emotional growth creates true wisdom.", "season": "Throughout series", "trait": "Growth & Leadership"},
+        {"title": "Facing Nightmare Moon", "description": "Using research and friendship simultaneously, Twilight discovered that combining knowledge with connection creates the most powerful magic.", "season": "Season 1", "trait": "Problem-Solving"},
+        {"title": "Lesson Zero Breakdown", "description": "When perfectionism overwhelmed her, Twilight learned that being organized doesn't mean being perfect - a crucial lesson for ISTJ types.", "season": "Season 2", "trait": "Vulnerability"}
+      ],
+      "areYouLike": {
+        "title": "Are You Like Twilight Sparkle?",
+        "questions": ["Do you prefer reading to socializing in large groups?", "Are you the friend people come to for logical advice?", "Do you make lists and schedules to organize your life?", "Does disorder or disorganization cause you stress?", "Do you approach problems with research and planning?", "Are you uncomfortable when you don't know something?", "Do you value knowledge and continuous learning?", "Are you loyal to friends but selective about who you trust?"],
+        "result": "If you answered 'yes' to 5 or more questions, you share significant traits with Twilight Sparkle!"
+      }
+    },
+    "rainbowDash": {
+      "metaTitle": "Rainbow Dash Personality: ESTP Analysis & Loyalty Traits",
+      "metaDescription": "Explore Rainbow Dash's ESTP personality, athletic achievements, and what makes her the Element of Loyalty. Learn if you match her competitive spirit.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Rainbow Dash as ESTP",
+        "intro": "Rainbow Dash embodies the ESTP personality - The Entrepreneur. Her action-oriented nature, love for competition, and living in the moment define this dynamic personality type.",
+        "sections": [
+          {"trait": "Extraverted (E)", "description": "Rainbow Dash thrives in social situations and draws energy from others. She's outgoing, confident, and often the center of attention - but never in an attention-seeking way.", "example": "Her dream of joining the Wonderbolts shows her desire for recognition and performing in front of crowds, energizing her rather than draining her."},
+          {"trait": "Sensing (S)", "description": "Rainbow lives in the present moment, trusting her physical senses and immediate experiences. She's practical and focuses on what's happening right now.", "example": "During flying competitions, she relies on split-second decisions and physical instincts rather than overthinking strategies."},
+          {"trait": "Thinking (T)", "description": "Logic and objective results matter to Rainbow. She values competence, efficiency, and direct communication - sometimes appearing blunt but always honest.", "example": "When giving feedback, Rainbow is straightforward and honest, focusing on improvement rather than sugar-coating messages."},
+          {"trait": "Perceiving (P)", "description": "Flexibility and spontaneity define Rainbow's approach. She prefers keeping options open and adapting on the fly rather than rigid planning.", "example": "Her motto '20% cooler' and spontaneous stunts show her preference for improvisation over strict schedules."}
+        ]
+      },
+      "memorableMoments": [
+        {"title": "The Sonic Rainboom", "description": "Overcoming self-doubt to perform the impossible, Rainbow showed that confidence backed by skill creates legendary achievements.", "season": "Season 1", "trait": "Courage & Achievement"},
+        {"title": "Choosing Loyalty Over Glory", "description": "When forced to choose between Wonderbolts tryouts and helping friends, Rainbow demonstrated that loyalty trumps personal ambition.", "season": "Season 2", "trait": "Loyalty"},
+        {"title": "Reading to Thunderlane", "description": "Admitting she loved reading showed Rainbow's vulnerability and that being athletic doesn't mean being one-dimensional.", "season": "Season 4", "trait": "Authenticity"}
+      ],
+      "areYouLike": {
+        "title": "Are You Like Rainbow Dash?",
+        "questions": ["Do you love physical activities and sports?", "Are you competitive and strive to be the best?", "Do you prefer action over planning?", "Would you describe yourself as confident?", "Do you speak your mind directly and honestly?", "Would you drop everything to help a friend in need?", "Do you get bored with slow-paced activities?", "Are you loyal to your friends no matter what?"],
+        "result": "If you answered 'yes' to 5 or more questions, you're a lot like Rainbow Dash!"
+      }
+    },
+    "fluttershy": {
+      "metaTitle": "Fluttershy Personality: ISFJ Traits & Kindness Element Analysis",
+      "metaDescription": "Understand Fluttershy's ISFJ personality, connection with animals, and gentle strength. Discover if you share her empathetic and caring nature.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Fluttershy as ISFJ",
+        "intro": "Fluttershy represents the ISFJ personality - The Protector. Her nurturing nature, empathy, and quiet strength perfectly demonstrate this caring personality type.",
+        "sections": [
+          {"trait": "Introverted (I)", "description": "Fluttershy finds peace in solitude and intimate settings. Large crowds and loud situations overwhelm her, while quiet moments with animals restore her energy.", "example": "Her cottage away from busy Ponyville and preference for small gatherings over large parties illustrate her introverted nature."},
+          {"trait": "Sensing (S)", "description": "Fluttershy is grounded in reality, paying attention to immediate, practical needs. She notices details others miss - especially regarding animals' wellbeing.", "example": "Her ability to identify what each animal needs through careful observation shows her sensing preference in action."},
+          {"trait": "Feeling (F)", "description": "Empathy guides all of Fluttershy's decisions. She prioritizes harmony, considers others' emotions, and would rather sacrifice her comfort than hurt anyone.", "example": "Her reluctance to assert herself comes from not wanting to cause discomfort, even when standing up for herself is necessary."},
+          {"trait": "Judging (J)", "description": "Despite her gentle nature, Fluttershy maintains structure through her animal care routines and organized cottage. She values predictability and tradition.", "example": "Her consistent daily schedule caring for animals and maintaining her cottage shows her need for order and routine."}
+        ]
+      },
+      "memorableMoments": [
+        {"title": "Stare Down with the Dragon", "description": "When her friends were in danger, shy Fluttershy found incredible courage - proving gentleness and strength aren't opposites.", "season": "Season 1", "trait": "Hidden Strength"},
+        {"title": "Standing Up to Iron Will", "description": "Learning to be assertive without losing her kindness showed that being gentle doesn't mean being a pushover.", "season": "Season 2", "trait": "Growth"},
+        {"title": "Becoming a Better Friend", "description": "Overcoming social anxiety to support friends demonstrated that caring for others can help us overcome our fears.", "season": "Throughout series", "trait": "Empathy"}
+      ],
+      "areYouLike": {
+        "title": "Are You Like Fluttershy?",
+        "questions": ["Do you prefer quiet environments to loud, crowded places?", "Are you deeply empathetic toward animals and people?", "Do you avoid conflict whenever possible?", "Would friends describe you as gentle and patient?", "Do you find it hard to say 'no' to others?", "Are you a good listener who notices emotional details?", "Do you prefer one-on-one conversations over group settings?", "Does caring for others (people or animals) bring you joy?"],
+        "result": "If you answered 'yes' to 5 or more questions, you share Fluttershy's gentle spirit!"
+      }
+    }
+  },
+  "cutieMarkQuiz": {
+    "title": "What's Your Cutie Mark?",
+    "description": "Discover your unique cutie mark and what special talent it represents! Answer 10 fun questions to reveal the symbol that defines your destiny in Equestria.",
+    "badge": "Cutie Mark Discovery",
+    "breadcrumb": "Cutie Mark Quiz",
+    "cta": "Discover Your Cutie Mark",
+    "stats": {"questions": "10", "questionsLabel": "Questions", "results": "6", "resultsLabel": "Unique Marks", "time": "3min", "timeLabel": "Quick & Fun"},
+    "whatIs": {
+      "title": "What is a Cutie Mark?",
+      "description": "In the magical world of Equestria, every pony earns a cutie mark - a unique symbol that appears on their flank representing their special talent, passion, or purpose in life. This quiz helps you discover what your cutie mark would be!",
+      "special": {"title": "Your Special Talent", "description": "A cutie mark represents what makes you unique - your natural abilities, passions, and what you were destined to do."},
+      "unique": {"title": "One of a Kind", "description": "Just like fingerprints, no two cutie marks are exactly alike. Yours will be as unique as you are!"},
+      "discover": {"title": "Discover Yours", "description": "Through this personality-based quiz, we'll analyze your traits to reveal the perfect cutie mark symbol for you."}
+    },
+    "quizSection": {"title": "Take the Cutie Mark Quiz", "description": "Answer these questions honestly to discover which cutie mark symbol represents your special talent and destiny!"},
+    "results": {"title": "Possible Cutie Mark Results", "description": "You could discover any of these unique cutie marks based on your personality and talents!"},
+    "faq": {
+      "title": "Cutie Mark Quiz FAQ",
+      "q1": "How does the cutie mark quiz work?",
+      "a1": "Our quiz analyzes your personality traits, interests, and values through 10 carefully designed questions. Based on your answers, we match you with a cutie mark symbol that represents your unique talents and strengths - just like in the My Little Pony universe!",
+      "q2": "Can I get different cutie marks?",
+      "a2": "Yes! If you retake the quiz with different answers, you might discover a different cutie mark. Your answers reflect different aspects of your personality, so it's fun to explore various results. However, your first result is usually the most accurate reflection of your true self.",
+      "q3": "What do the different cutie mark symbols mean?",
+      "a3": "Each cutie mark symbol represents specific talents and personality traits. Stars represent intelligence and magic, lightning bolts show speed and loyalty, butterflies indicate kindness and empathy, diamonds reflect creativity and beauty, balloons signify joy and energy, while apples represent honesty and hard work.",
+      "q4": "Is this quiz just for MLP fans?",
+      "a4": "Not at all! While the concept comes from My Little Pony, this quiz is a fun personality assessment that anyone can enjoy. You don't need to know anything about the show - just answer honestly about yourself, and you'll discover your unique cutie mark!"
+    },
+    "related": {"title": "More Fun Quizzes"},
+    "cta": {"title": "Ready to Discover Your Cutie Mark?", "description": "Join thousands who've found their special talent symbol!", "button": "Start Quiz Now"}
+  },
   "common": {
     "home": "Início",
     "learnMore": "Saiba mais",

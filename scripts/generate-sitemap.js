@@ -127,6 +127,8 @@ function generateSitemapData() {
     ...generateMultilingualUrls('/personality-test', 0.9, 'weekly'),
     ...generateMultilingualUrls('/characters', 0.9, 'weekly'),
     ...generateMultilingualUrls('/guides', 0.8, 'weekly'),
+    ...generateMultilingualUrls('/quizzes/cutie-mark', 0.8, 'weekly'),
+    ...generateMultilingualUrls('/compare/mlp-test-vs-idrlabs', 0.7, 'monthly'),
     ...generateMultilingualUrls('/privacy', 0.5, 'yearly'),
     ...generateMultilingualUrls('/terms', 0.5, 'yearly'),
   ];

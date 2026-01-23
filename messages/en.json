@@ -26,11 +26,11 @@
   },
   "guidesPage": {
     "title": "My Little Pony Guides",
-    "description": "Everything you need to know about My Little Pony personality tests",
+    "description": "Everything you need to know about personality quizzes and character matching",
     "readGuide": "Read Guide",
     "breadcrumb": "Guides",
     "relatedGuides": "Related Guides",
-    "ctaButton": "Take the My Little Pony Test Now"
+    "ctaButton": "Take the Quiz Now"
   },
   "guides": {
     "filterTutorial": {
@@ -50,7 +50,7 @@
     },
     "bestQuizzes": {
       "title": "Best MLP Quizzes 2026",
-      "description": "A curated list of the best My Little Pony personality tests",
+      "description": "A curated list of the best pony personality quizzes online",
       "date": "Jan 01, 2026"
     },
     "traitsExplained": {
@@ -69,20 +69,20 @@
       "date": "Dec 20, 2025"
     },
     "readArticle": "Read Article",
-    "sectionTitle": "2026 Latest Guides About My Little Pony Test",
+    "sectionTitle": "Latest Guides & Tips",
     "viewAll": "View all articles"
   },
   "hero": {
     "badge": "My Little pony Personality Test",
     "title": "My Little Pony Test",
     "subtitle": "My Little Pony Personality test - Which Pony are you ?",
-    "description": "Take our my little pony test and find out which beloved character from Equestria matches your personality! Our my little pony personality test helps you discover if you're Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie, or Applejack.",
+    "description": "Take our my little pony test and find out which beloved character from Equestria matches your personality! Discover if you're Twilight Sparkle, Rainbow Dash, Fluttershy, Rarity, Pinkie Pie, or Applejack through this fun personality quiz.",
     "cta": "Start Quiz Now",
     "ctaSecondary": "Meet Characters"
   },
   "quiz": {
-    "sectionTitle": "Take Our Personality Test - My Little Pony Test",
-    "sectionDescription": "Answer 12 fun questions in this my little pony test and discover which my little pony character you are most like! Our my little pony personality test provides instant, accurate results based on your answers.",
+    "sectionTitle": "Take Our Free Personality Quiz",
+    "sectionDescription": "Answer 12 fun questions and discover which character from Equestria you are most like! Get instant, accurate results based on your personality traits.",
     "ui": {
       "loading": "Loading question...",
       "calculating": "Calculating Your Pony Match...",
@@ -231,8 +231,8 @@
   },
   "popularTests": {
     "badge": "Most Popular",
-    "title": "Choose Your My Little Pony Test",
-    "description": "Pick the perfect test based on your time and interests. From quick quizzes to deep personality analysis!",
+    "title": "Choose Your Quiz Style",
+    "description": "Pick the perfect personality test based on your time and interests. From quick quizzes to deep character analysis!",
     "personalityTest": {
       "title": "Personality Test",
       "time": "3-5 min",
@@ -279,18 +279,18 @@
     "guideRushCta": "Go to Quick Quiz →"
   },
   "howItWorks": {
-    "title": "How My Little Pony Test Works",
-    "description": "Our my little pony personality test analyzes your answers to match you with one of six beloved characters from Equestria. This my little pony test uses advanced algorithms to provide accurate character matches.",
-    "step1Title": "Take Our Personality Test in 1 minute",
-    "step1Description": "Our my little pony test asks questions about your preferences, values, and how you handle different situations in daily life.",
-    "step2Title": "Explore Your Pony Character Results",
-    "step2Description": "Get your my little pony quiz results immediately with detailed personality insights and character traits that match your answers.",
-    "step3Title": "Save And Share your Test Results",
-    "step3Description": "Download your my little pony personality test results and share your character match with friends on social media platforms!"
+    "title": "How the Matching System Works",
+    "description": "Our personality quiz analyzes your answers to match you with one of six beloved characters from Equestria using advanced algorithms.",
+    "step1Title": "Answer 12 Quick Questions",
+    "step1Description": "The quiz asks about your preferences, values, and how you handle different situations in daily life.",
+    "step2Title": "Get Your Character Match",
+    "step2Description": "Receive instant results with detailed personality insights and character traits that align with your answers.",
+    "step3Title": "Save And Share Your Results",
+    "step3Description": "Download your character profile and share your match with friends on social media!"
   },
   "characters": {
-    "sectionTitle": "Meet the My Little Pony Character Test Characters",
-    "sectionDescription": "Discover each pony's unique personality traits, MBTI type, and characteristics in our my little pony character test. Take the my little pony personality test to find out which character matches your personality best.",
+    "sectionTitle": "Meet the Main Characters",
+    "sectionDescription": "Discover each pony's unique personality traits, MBTI type, and characteristics. Take the quiz to find out which character matches your personality best.",
     "mbtiLabel": "MBTI:",
     "viewProfile": "View Profile",
     "traits": {
@@ -301,18 +301,18 @@
       "athleticism": "Athleticism",
       "creativity": "Creativity"
     },
-    "exploreAll": "Explore All My Little Pony Test Characters",
+    "exploreAll": "Explore All Characters",
     "pageTitle": "My Little Pony Characters",
-    "pageDescription": "Discover the unique personalities of all six characters from our my little pony test",
+    "pageDescription": "Discover the unique personalities of all six characters from Equestria",
     "ctaTitle": "Which Character Are You?",
-    "ctaDescription": "Take our my little pony personality test to find your perfect match!",
+    "ctaDescription": "Take our personality quiz to find your perfect match!",
     "ctaButton": "Take the Quiz →",
     "breadcrumb": "Characters"
   },
   "about": {
-    "title": "What is a My Little Pony Test?",
-    "description": "A my little pony test is a personality quiz that matches you with one of the iconic characters from the beloved animated series. Unlike other quizzes, our my little pony character test uses a sophisticated scoring system to analyze your personality traits and find your perfect pony match. This my little pony test is designed to be fun, accurate, and shareable.",
-    "whyTakeTitle": "Why Take Our My Little Pony Quiz?",
+    "title": "What This Quiz Reveals About You",
+    "description": "This personality quiz matches you with one of the iconic characters from the beloved animated series. Unlike basic quizzes, it uses a sophisticated scoring system to analyze your personality traits and find your perfect pony match. Designed to be fun, accurate, and shareable.",
+    "whyTakeTitle": "Why Fans Love This Character Quiz",
     "reason1Title": "Discover Your True Self",
     "reason1Description": "Learn which MLP character reflects your personality traits and values.",
     "reason2Title": "Share with Friends",
@@ -323,24 +323,24 @@
     "reason4Description": "Complete the test in just 3-5 minutes and get instant results."
   },
   "faq": {
-    "title": "My Little Pony Test FAQ",
-    "description": "Common questions about our my little pony personality test and my little pony test",
-    "q1": "How long does the my little pony test take?",
-    "a1": "The my little pony test takes about 3-5 minutes to complete. Our my little pony quiz features just 12 questions, so you'll get your character match quickly without spending too much time!",
-    "q2": "Is this my little pony quiz free?",
-    "a2": "Yes! Our my little pony test is completely free. The my little pony character test requires no registration, no payment, and has no hidden costs - just pure fun!",
-    "q3": "Can I share my my little pony test results?",
-    "a3": "Absolutely! After completing the my little pony character test, you can download your my little pony quiz results as an image or share directly to social media platforms.",
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about our personality quiz",
+    "q1": "How long does the quiz take?",
+    "a1": "Most users finish in 3-5 minutes. There are 12 questions, and you can take your time - there's no timer. Some fans retake it multiple times to explore different answers!",
+    "q2": "Is this quiz free?",
+    "a2": "100% free, no signup required. We believe everyone should be able to find their pony match without barriers - no registration, no payment, no hidden costs!",
+    "q3": "Can I share my results?",
+    "a3": "Absolutely! After completing the quiz, you can download your character profile as an image or share directly to social media platforms.",
     "q4": "What if I don't know My Little Pony well?",
-    "a4": "No problem! Our my little pony test is designed for everyone, whether you're a longtime fan or completely new to the series. The my little pony personality test questions focus on your personality traits, not show knowledge.",
-    "q5": "How is this my little pony test different from the IDRLabs test?",
-    "a5": "While both are great, our my little pony test focuses on quick, shareable results perfect for social media. The IDRLabs my little pony character test offers more detailed psychological analysis. Choose based on what you prefer!",
-    "q6": "Can I retake the my little pony quiz?",
-    "a6": "Yes! Feel free to retake the my little pony personality test as many times as you like. Your my little pony test answers might change over time as you grow and develop!"
+    "a4": "No problem! This quiz is designed for everyone, whether you're a longtime fan or completely new to the series. The questions focus on your personality traits, not show knowledge.",
+    "q5": "How is this different from the IDRLabs test?",
+    "a5": "While both are great, our quiz focuses on quick, shareable results perfect for social media. IDRLabs offers more detailed psychological analysis. Choose based on what you prefer!",
+    "q6": "Can I retake the quiz?",
+    "a6": "Yes! Feel free to retake it as many times as you like. Your answers might change over time as you grow and develop!"
   },
   "cta": {
-    "title": "Ready to Find Your Pony Match?",
-    "description": "Join thousands of fans who discovered their My Little Pony character! Take the test now.",
+    "title": "Your Character Match is Waiting",
+    "description": "Join thousands of fans who discovered their perfect pony match! Begin your journey into Equestria.",
     "button": "Start My Little Pony Test Now"
   },
   "footer": {
@@ -360,34 +360,34 @@
     "twilight-sparkle": {
       "name": "Twilight Sparkle",
       "title": "Princess of Friendship",
-      "description": "You are organized, studious, and love to learn new things. Like Twilight Sparkle, you approach problems with logic and research, always seeking knowledge to better understand the world around you."
+      "description": "The magic of friendship starts with knowledge. If you're the type who loves diving deep into books, organizing everything perfectly, and approaching problems with logic and research - Twilight Sparkle is your match. She sees the world as a puzzle waiting to be solved through learning and understanding."
     },
     "rainbow-dash": {
       "name": "Rainbow Dash",
       "title": "Element of Loyalty",
-      "description": "You are athletic, confident, and competitive. Like Rainbow Dash, you never back down from a challenge and always strive to be the best at what you do."
+      "description": "Speed. Loyalty. Pure confidence. Rainbow Dash doesn't walk into a room - she flies in. Match with her if you're competitive, athletic, and never back down from a challenge. When your friends need you, you're there in a flash, ready to prove yourself and stand by those you care about."
     },
     "fluttershy": {
       "name": "Fluttershy",
       "title": "Element of Kindness",
-      "description": "You are gentle, empathetic, and have a special connection with nature and animals. Like Fluttershy, you show kindness to all creatures and value peace and harmony."
+      "description": "In a world that's often too loud, Fluttershy reminds us of the power of gentleness. She connects with animals on a deeper level, speaks softly but carries wisdom, and shows that kindness is its own kind of strength. If you value peace, empathy, and quiet moments in nature, you've found your character."
     },
     "rarity": {
       "name": "Rarity",
       "title": "Element of Generosity",
-      "description": "You are creative, fashionable, and have an eye for beauty and elegance. Like Rarity, you appreciate the finer things in life and express yourself through art and style."
+      "description": "Darling, true elegance isn't just about appearances - though Rarity certainly has style mastered. She transforms the ordinary into extraordinary through creativity and artistic vision. If you appreciate beauty, express yourself through fashion and art, and believe in making the world more fabulous, Rarity is absolutely your pony."
     },
     "pinkie-pie": {
       "name": "Pinkie Pie",
       "title": "Element of Laughter",
-      "description": "You are energetic, optimistic, and love to make others smile. Like Pinkie Pie, you bring joy and laughter wherever you go and love throwing parties."
+      "description": "Life's a party when Pinkie Pie's around! Boundless energy, infectious optimism, and an uncanny ability to make anyone smile - that's the Pinkie magic. If you live life with spontaneity, find joy in making others happy, and believe laughter really is the best medicine, you two are kindred spirits."
     },
     "applejack": {
       "name": "Applejack",
       "title": "Element of Honesty",
-      "description": "You are hardworking, honest, and dependable. Like Applejack, you value family, hard work, and always tell the truth no matter what."
+      "description": "No frills, no nonsense, just honest hard work and family values. Applejack represents dependability in its purest form - when she gives you her word, you can count on it. If you value integrity, aren't afraid of rolling up your sleeves, and believe family and truth come first, welcome to Sweet Apple Acres."
     },
-    "exploreAll": "Explore All My Little Pony Test Characters"
+    "exploreAll": "Explore All Characters"
   },
   "results": {
     "verified": "Verified Result",
@@ -436,11 +436,11 @@
       "free": "Free"
     },
     "whySection": {
-      "title": "Why Our My Little Pony Personality Test?",
-      "description": "Unlike basic quizzes, our my little pony personality test uses advanced personality psychology to match you with your perfect character",
+      "title": "Why Choose This Personality Quiz?",
+      "description": "Unlike basic quizzes, our assessment uses advanced personality psychology to match you with your perfect character",
       "mbti": {
         "title": "MBTI-Based Analysis",
-        "description": "Our my little pony personality test uses Myers-Briggs personality dimensions to accurately match you with characters based on real psychological traits"
+        "description": "Uses Myers-Briggs personality dimensions to accurately match you with characters based on real psychological traits"
       },
       "detailed": {
         "title": "Detailed Results",
@@ -452,8 +452,8 @@
       }
     },
     "quizSection": {
-      "title": "Take the My Little Pony Personality Test",
-      "description": "Answer 12 carefully designed questions to discover your my little pony personality test results. This mlp personality test takes approximately 3-5 minutes."
+      "title": "Take the Personality Assessment",
+      "description": "Answer 12 carefully designed questions to discover your character match. Takes approximately 3-5 minutes."
     },
     "socialProof": {
       "testsTaken": "500K+",
@@ -466,8 +466,8 @@
     "breadcrumb": "Personality Test",
     "home": "Home",
     "personaTypes": {
-      "title": "My Little Pony Personality Types",
-      "description": "Our my little pony personality test matches you with one of these distinct personality archetypes",
+      "title": "Personality Archetypes",
+      "description": "This assessment matches you with one of these distinct character types",
       "introverted": "📚 Introverted & Thoughtful Types",
       "extroverted": "⚡ Extroverted & Action-Oriented Types",
       "creative": "💎 Balanced & Creative Type",
@@ -476,11 +476,11 @@
       "learnMore": "Learn More"
     },
     "howItWorks": {
-      "title": "How Our My Little Pony Personality Test Works",
+      "title": "How This Personality Assessment Works",
       "description": "Scientifically designed to match your personality with MLP characters",
       "step1": {
         "title": "Personality Dimension Questions",
-        "description": "Our my little pony personality test presents 12 scenario-based questions that assess key personality dimensions: introversion vs extroversion, thinking vs feeling, planning vs spontaneity, and more. Each question is designed to reveal authentic personality traits."
+        "description": "12 scenario-based questions assess key personality dimensions: introversion vs extroversion, thinking vs feeling, planning vs spontaneity, and more. Each question reveals authentic personality traits."
       },
       "step2": {
         "title": "Advanced Matching Algorithm",
@@ -488,26 +488,26 @@
       },
       "step3": {
         "title": "Detailed Personality Report",
-        "description": "Receive your my little pony personality test results including your matched character, personality breakdown, strengths, MBTI type, and compatibility with other characters. All completely free with no registration required!"
+        "description": "Receive your results including matched character, personality breakdown, strengths, MBTI type, and compatibility with others. All completely free with no registration required!"
       }
     },
     "faq": {
-      "title": "My Little Pony Personality Test FAQ",
-      "description": "Common questions about our mlp personality test",
-      "q1": "How accurate is this my little pony personality test?",
-      "a1": "Our my little pony personality test is designed using established personality psychology principles and has been taken by over 500,000 users with a 4.8/5 satisfaction rating. The test uses MBTI-based dimensions and character trait analysis to provide highly accurate matches. For best results, answer honestly based on your natural preferences rather than how you wish to be.",
-      "q2": "What makes this different from other my little pony tests?",
-      "a2": "Unlike quick BuzzFeed-style quizzes, our mlp personality test uses scientific personality assessment methods. We provide detailed character analysis, MBTI types, trait breakdowns, and compatibility scores - all completely free.",
+      "title": "Personality Assessment FAQ",
+      "description": "Common questions about the quiz",
+      "q1": "How accurate is this personality assessment?",
+      "a1": "This assessment is designed using established personality psychology principles and has been taken by over 500,000 users with a 4.8/5 satisfaction rating. It uses MBTI-based dimensions and character trait analysis to provide highly accurate matches. For best results, answer honestly based on your natural preferences.",
+      "q2": "What makes this different from other quizzes?",
+      "a2": "Unlike quick BuzzFeed-style quizzes, this uses scientific personality assessment methods. You get detailed character analysis, MBTI types, trait breakdowns, and compatibility scores - all completely free.",
       "q3": "Which characters can I get as results?",
-      "a3": "Our my little pony personality test can match you with any of the main six characters: Twilight Sparkle (ISTJ), Rainbow Dash (ESTP), Fluttershy (ISFJ), Rarity (ESFJ), Pinkie Pie (ENFP), or Applejack (ESTJ). Each character represents distinct personality archetypes and traits.",
-      "q4": "How long does the personality test take?",
-      "a4": "The my little pony personality test takes approximately 3-5 minutes to complete with 12 carefully designed questions. It's longer than a basic quiz but shorter than comprehensive personality assessments, striking the perfect balance between accuracy and convenience.",
-      "q5": "Is the test really free?",
-      "a5": "Yes! Our my little pony personality test is 100% free with no hidden costs, registration requirements, or premium upsells. You get complete results including detailed personality analysis, character profiles, and compatibility information at no charge.",
-      "q6": "Can I retake the personality test?",
-      "a6": "Absolutely! You can retake our mlp personality test as many times as you like. Many users enjoy retaking the test after some time to see if their results change as they grow."
+      "a3": "You can match with any of the main six characters: Twilight Sparkle (ISTJ), Rainbow Dash (ESTP), Fluttershy (ISFJ), Rarity (ESFJ), Pinkie Pie (ENFP), or Applejack (ESTJ). Each represents distinct personality archetypes.",
+      "q4": "How long does it take?",
+      "a4": "Approximately 3-5 minutes with 12 carefully designed questions. It's longer than basic quizzes but shorter than comprehensive assessments, striking the perfect balance between accuracy and convenience.",
+      "q5": "Is it really free?",
+      "a5": "Yes! 100% free with no hidden costs, registration requirements, or premium upsells. You get complete results including detailed personality analysis, character profiles, and compatibility information at no charge.",
+      "q6": "Can I retake it?",
+      "a6": "Absolutely! You can retake the quiz as many times as you like. Many users enjoy retaking it after some time to see if their results change as they grow."
     },
-    "relatedTitle": "Try More My Little Pony Tests",
+    "relatedTitle": "Try More Character Quizzes",
     "ctaSection": {
       "title": "Ready to Discover Your Personality?",
       "description": "Join 500,000+ fans who've discovered their My Little Pony character match!",
@@ -518,7 +518,7 @@
   "characterTestPage": {
     "badge": "Character Matching Test",
     "title": "My Little Pony Character Test",
-    "description": "Discover your perfect My Little Pony character match with our interactive my little pony character test - Find out which pony shares your unique traits!",
+    "description": "Discover your perfect character match! Find out which pony from Equestria shares your unique traits and personality.",
     "ctaPrimary": "Start Character Test",
     "ctaSecondary": "Browse Characters",
     "socialProof": {
@@ -530,8 +530,8 @@
       "durationLabel": "Duration"
     },
     "whySection": {
-      "title": "Why Take Our My Little Pony Character Test?",
-      "description": "Our my little pony character test is the most accurate way to discover your Equestrian soulmate",
+      "title": "Why Take This Character Quiz?",
+      "description": "The most accurate way to discover your Equestrian soulmate",
       "accurate": {
         "title": "Accurate Matching",
         "description": "We use scenario-based questions to match your real-world reactions to character behaviors."
@@ -546,7 +546,7 @@
       }
     },
     "quizSection": {
-      "title": "Start Your My Little Pony Character Test",
+      "title": "Start Your Character Matching Quiz",
       "description": "Ready to meet your pony match? Answer these quick questions!"
     },
     "howItWorks": {
@@ -562,7 +562,7 @@
   "whichPonyPage": {
     "badge": "Quick 5-Minute Quiz",
     "title": "Which My Little Pony Are You?",
-    "description": "Take our quick which my little pony are you quiz and instantly discover which character from Equestria matches your personality!",
+    "description": "Take this quick quiz and instantly discover which character from Equestria matches your personality!",
     "ctaPrimary": "Start Quiz Now",
     "banner": "Find Out In 2 Minutes!",
     "funStats": {
@@ -624,5 +624,257 @@
     "viewProfile": "View Profile",
     "startTest": "Start Test",
     "backToHome": "Back to Home"
+  },
+  "characterDeepDive": {
+    "twilightSparkle": {
+      "metaTitle": "Twilight Sparkle Personality: Complete MBTI Analysis & Traits",
+      "metaDescription": "Deep dive into Twilight Sparkle's ISTJ personality type, magical abilities, and character development. Discover if you share traits with the Princess of Friendship.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Twilight as ISTJ",
+        "intro": "Twilight Sparkle exemplifies the ISTJ personality type - The Inspector. Her methodical approach to magic, love for organization, and dedication to duty perfectly align with this personality archetype.",
+        "sections": [
+          {
+            "trait": "Introverted (I)",
+            "description": "While Twilight values her friendships deeply, she recharges through solitary study and reflection. Her initial reluctance to attend social events and preference for books over parties demonstrates classic introversion.",
+            "example": "In 'Lesson Zero,' Twilight's anxiety about missing a friendship report shows how she processes challenges internally before seeking help."
+          },
+          {
+            "trait": "Sensing (S)",
+            "description": "Twilight relies on concrete facts, proven methods, and detailed research. She trusts what she can observe, measure, and document - whether it's spell formulas or friendship lessons.",
+            "example": "Her approach to solving problems always involves consulting books, taking notes, and following established magical principles rather than improvisation."
+          },
+          {
+            "trait": "Thinking (T)",
+            "description": "Logic and objective analysis guide Twilight's decisions. She values truth and fairness, sometimes struggling with emotions but ultimately balancing logic with empathy.",
+            "example": "When organizing events or solving conflicts, Twilight creates detailed plans and checklists, approaching problems systematically."
+          },
+          {
+            "trait": "Judging (J)",
+            "description": "Structure, planning, and organization are Twilight's comfort zone. She thrives with schedules, deadlines, and clear expectations - disorder causes her stress.",
+            "example": "Her famous checklists, color-coded schedules, and meticulous library organization showcase her need for order and structure."
+          }
+        ]
+      },
+      "memorableMoments": [
+        {
+          "title": "Learning Friendship's Magic",
+          "description": "From a solitary student to Princess of Friendship, Twilight's journey shows how intelligence paired with emotional growth creates true wisdom.",
+          "season": "Throughout series",
+          "trait": "Growth & Leadership"
+        },
+        {
+          "title": "Facing Nightmare Moon",
+          "description": "Using research and friendship simultaneously, Twilight discovered that combining knowledge with connection creates the most powerful magic.",
+          "season": "Season 1",
+          "trait": "Problem-Solving"
+        },
+        {
+          "title": "Lesson Zero Breakdown",
+          "description": "When perfectionism overwhelmed her, Twilight learned that being organized doesn't mean being perfect - a crucial lesson for ISTJ types.",
+          "season": "Season 2",
+          "trait": "Vulnerability"
+        }
+      ],
+      "areYouLike": {
+        "title": "Are You Like Twilight Sparkle?",
+        "questions": [
+          "Do you prefer reading to socializing in large groups?",
+          "Are you the friend people come to for logical advice?",
+          "Do you make lists and schedules to organize your life?",
+          "Does disorder or disorganization cause you stress?",
+          "Do you approach problems with research and planning?",
+          "Are you uncomfortable when you don't know something?",
+          "Do you value knowledge and continuous learning?",
+          "Are you loyal to friends but selective about who you trust?"
+        ],
+        "result": "If you answered 'yes' to 5 or more questions, you share significant traits with Twilight Sparkle!"
+      }
+    },
+    "rainbowDash": {
+      "metaTitle": "Rainbow Dash Personality: ESTP Analysis & Loyalty Traits",
+      "metaDescription": "Explore Rainbow Dash's ESTP personality, athletic achievements, and what makes her the Element of Loyalty. Learn if you match her competitive spirit.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Rainbow Dash as ESTP",
+        "intro": "Rainbow Dash embodies the ESTP personality - The Entrepreneur. Her action-oriented nature, love for competition, and living in the moment define this dynamic personality type.",
+        "sections": [
+          {
+            "trait": "Extraverted (E)",
+            "description": "Rainbow Dash thrives in social situations and draws energy from others. She's outgoing, confident, and often the center of attention - but never in an attention-seeking way.",
+            "example": "Her dream of joining the Wonderbolts shows her desire for recognition and performing in front of crowds, energizing her rather than draining her."
+          },
+          {
+            "trait": "Sensing (S)",
+            "description": "Rainbow lives in the present moment, trusting her physical senses and immediate experiences. She's practical and focuses on what's happening right now.",
+            "example": "During flying competitions, she relies on split-second decisions and physical instincts rather than overthinking strategies."
+          },
+          {
+            "trait": "Thinking (T)",
+            "description": "Logic and objective results matter to Rainbow. She values competence, efficiency, and direct communication - sometimes appearing blunt but always honest.",
+            "example": "When giving feedback, Rainbow is straightforward and honest, focusing on improvement rather than sugar-coating messages."
+          },
+          {
+            "trait": "Perceiving (P)",
+            "description": "Flexibility and spontaneity define Rainbow's approach. She prefers keeping options open and adapting on the fly rather than rigid planning.",
+            "example": "Her motto '20% cooler' and spontaneous stunts show her preference for improvisation over strict schedules."
+          }
+        ]
+      },
+      "memorableMoments": [
+        {
+          "title": "The Sonic Rainboom",
+          "description": "Overcoming self-doubt to perform the impossible, Rainbow showed that confidence backed by skill creates legendary achievements.",
+          "season": "Season 1",
+          "trait": "Courage & Achievement"
+        },
+        {
+          "title": "Choosing Loyalty Over Glory",
+          "description": "When forced to choose between Wonderbolts tryouts and helping friends, Rainbow demonstrated that loyalty trumps personal ambition.",
+          "season": "Season 2",
+          "trait": "Loyalty"
+        },
+        {
+          "title": "Reading to Thunderlane",
+          "description": "Admitting she loved reading showed Rainbow's vulnerability and that being athletic doesn't mean being one-dimensional.",
+          "season": "Season 4",
+          "trait": "Authenticity"
+        }
+      ],
+      "areYouLike": {
+        "title": "Are You Like Rainbow Dash?",
+        "questions": [
+          "Do you love physical activities and sports?",
+          "Are you competitive and strive to be the best?",
+          "Do you prefer action over planning?",
+          "Would you describe yourself as confident?",
+          "Do you speak your mind directly and honestly?",
+          "Would you drop everything to help a friend in need?",
+          "Do you get bored with slow-paced activities?",
+          "Are you loyal to your friends no matter what?"
+        ],
+        "result": "If you answered 'yes' to 5 or more questions, you're a lot like Rainbow Dash!"
+      }
+    },
+    "fluttershy": {
+      "metaTitle": "Fluttershy Personality: ISFJ Traits & Kindness Element Analysis",
+      "metaDescription": "Understand Fluttershy's ISFJ personality, connection with animals, and gentle strength. Discover if you share her empathetic and caring nature.",
+      "mbtiAnalysis": {
+        "title": "MBTI Deep Dive: Fluttershy as ISFJ",
+        "intro": "Fluttershy represents the ISFJ personality - The Protector. Her nurturing nature, empathy, and quiet strength perfectly demonstrate this caring personality type.",
+        "sections": [
+          {
+            "trait": "Introverted (I)",
+            "description": "Fluttershy finds peace in solitude and intimate settings. Large crowds and loud situations overwhelm her, while quiet moments with animals restore her energy.",
+            "example": "Her cottage away from busy Ponyville and preference for small gatherings over large parties illustrate her introverted nature."
+          },
+          {
+            "trait": "Sensing (S)",
+            "description": "Fluttershy is grounded in reality, paying attention to immediate, practical needs. She notices details others miss - especially regarding animals' wellbeing.",
+            "example": "Her ability to identify what each animal needs through careful observation shows her sensing preference in action."
+          },
+          {
+            "trait": "Feeling (F)",
+            "description": "Empathy guides all of Fluttershy's decisions. She prioritizes harmony, considers others' emotions, and would rather sacrifice her comfort than hurt anyone.",
+            "example": "Her reluctance to assert herself comes from not wanting to cause discomfort, even when standing up for herself is necessary."
+          },
+          {
+            "trait": "Judging (J)",
+            "description": "Despite her gentle nature, Fluttershy maintains structure through her animal care routines and organized cottage. She values predictability and tradition.",
+            "example": "Her consistent daily schedule caring for animals and maintaining her cottage shows her need for order and routine."
+          }
+        ]
+      },
+      "memorableMoments": [
+        {
+          "title": "Stare Down with the Dragon",
+          "description": "When her friends were in danger, shy Fluttershy found incredible courage - proving gentleness and strength aren't opposites.",
+          "season": "Season 1",
+          "trait": "Hidden Strength"
+        },
+        {
+          "title": "Standing Up to Iron Will",
+          "description": "Learning to be assertive without losing her kindness showed that being gentle doesn't mean being a pushover.",
+          "season": "Season 2",
+          "trait": "Growth"
+        },
+        {
+          "title": "Becoming a Better Friend",
+          "description": "Overcoming social anxiety to support friends demonstrated that caring for others can help us overcome our fears.",
+          "season": "Throughout series",
+          "trait": "Empathy"
+        }
+      ],
+      "areYouLike": {
+        "title": "Are You Like Fluttershy?",
+        "questions": [
+          "Do you prefer quiet environments to loud, crowded places?",
+          "Are you deeply empathetic toward animals and people?",
+          "Do you avoid conflict whenever possible?",
+          "Would friends describe you as gentle and patient?",
+          "Do you find it hard to say 'no' to others?",
+          "Are you a good listener who notices emotional details?",
+          "Do you prefer one-on-one conversations over group settings?",
+          "Does caring for others (people or animals) bring you joy?"
+        ],
+        "result": "If you answered 'yes' to 5 or more questions, you share Fluttershy's gentle spirit!"
+      }
+    }
+  },
+  "cutieMarkQuiz": {
+    "title": "What's Your Cutie Mark?",
+    "description": "Discover your unique cutie mark and what special talent it represents! Answer 10 fun questions to reveal the symbol that defines your destiny in Equestria.",
+    "badge": "Cutie Mark Discovery",
+    "breadcrumb": "Cutie Mark Quiz",
+    "cta": "Discover Your Cutie Mark",
+    "stats": {
+      "questions": "10",
+      "questionsLabel": "Questions",
+      "results": "6",
+      "resultsLabel": "Unique Marks",
+      "time": "3min",
+      "timeLabel": "Quick & Fun"
+    },
+    "whatIs": {
+      "title": "What is a Cutie Mark?",
+      "description": "In the magical world of Equestria, every pony earns a cutie mark - a unique symbol that appears on their flank representing their special talent, passion, or purpose in life. This quiz helps you discover what your cutie mark would be!",
+      "special": {
+        "title": "Your Special Talent",
+        "description": "A cutie mark represents what makes you unique - your natural abilities, passions, and what you were destined to do."
+      },
+      "unique": {
+        "title": "One of a Kind",
+        "description": "Just like fingerprints, no two cutie marks are exactly alike. Yours will be as unique as you are!"
+      },
+      "discover": {
+        "title": "Discover Yours",
+        "description": "Through this personality-based quiz, we'll analyze your traits to reveal the perfect cutie mark symbol for you."
+      }
+    },
+    "quizSection": {
+      "title": "Take the Cutie Mark Quiz",
+      "description": "Answer these questions honestly to discover which cutie mark symbol represents your special talent and destiny!"
+    },
+    "results": {
+      "title": "Possible Cutie Mark Results",
+      "description": "You could discover any of these unique cutie marks based on your personality and talents!"
+    },
+    "faq": {
+      "title": "Cutie Mark Quiz FAQ",
+      "q1": "How does the cutie mark quiz work?",
+      "a1": "Our quiz analyzes your personality traits, interests, and values through 10 carefully designed questions. Based on your answers, we match you with a cutie mark symbol that represents your unique talents and strengths - just like in the My Little Pony universe!",
+      "q2": "Can I get different cutie marks?",
+      "a2": "Yes! If you retake the quiz with different answers, you might discover a different cutie mark. Your answers reflect different aspects of your personality, so it's fun to explore various results. However, your first result is usually the most accurate reflection of your true self.",
+      "q3": "What do the different cutie mark symbols mean?",
+      "a3": "Each cutie mark symbol represents specific talents and personality traits. Stars represent intelligence and magic, lightning bolts show speed and loyalty, butterflies indicate kindness and empathy, diamonds reflect creativity and beauty, balloons signify joy and energy, while apples represent honesty and hard work.",
+      "q4": "Is this quiz just for MLP fans?",
+      "a4": "Not at all! While the concept comes from My Little Pony, this quiz is a fun personality assessment that anyone can enjoy. You don't need to know anything about the show - just answer honestly about yourself, and you'll discover your unique cutie mark!"
+    },
+    "related": {
+      "title": "More Fun Quizzes"
+    },
+    "cta": {
+      "title": "Ready to Discover Your Cutie Mark?",
+      "description": "Join thousands who've found their special talent symbol!",
+      "button": "Start Quiz Now"
+    }
   }
 }

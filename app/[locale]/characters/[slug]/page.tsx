@@ -28,6 +28,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = t(`${slug}.title`);
   const description = t(`${slug}.description`);
 
+  // Check if deep dive content exists for this character
+  const deepDiveCharacters = ['twilight-sparkle', 'rainbow-dash', 'fluttershy'];
+  const hasDeepDive = deepDiveCharacters.includes(slug);
+
+  // Use enhanced metadata for deep dive characters
+  if (hasDeepDive) {
+    try {
+      const camelCaseSlug = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+      const tDeep = await getTranslations({ locale, namespace: `characterDeepDive.${camelCaseSlug}` });
+      return {
+        title: tDeep('metaTitle'),
+        description: tDeep('metaDescription'),
+        keywords: [
+          `${name}`,
+          `${name} personality`,
+          `${name} MBTI`,
+          `${character.mbti}`,
+          'my little pony',
+          character.slug,
+          'mlp character',
+          'personality analysis'
+        ]
+      };
+    } catch (e) {
+      // Fall back to default metadata if deep dive translation not found
+    }
+  }
+
   return {
     title: `${name} - ${title} | My Little Pony Test`,
     description: `Learn all about ${name}, the ${title}. ${description}`,
@@ -54,8 +82,43 @@ export default async function CharacterPage({ params }: Props) {
 
   const otherCharacters = characters.filter(c => c.id !== character.id);
 
+  // Check if deep dive content exists
+  const deepDiveCharacters = ['twilight-sparkle', 'rainbow-dash', 'fluttershy'];
+  const hasDeepDive = deepDiveCharacters.includes(slug);
+
+  // Load deep dive translations if available
+  let tDeep: any = null;
+  if (hasDeepDive) {
+    try {
+      const camelCaseSlug = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+      tDeep = await getTranslations({ locale, namespace: `characterDeepDive.${camelCaseSlug}` });
+    } catch (e) {
+      // Deep dive content not available
+    }
+  }
+
+  // Schema markup for character
+  const characterSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": name,
+    "description": description,
+    "jobTitle": title,
+    "knowsAbout": character.personality,
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": title
+    }
+  };
+
   return (
     <main className="min-h-screen bg-white dark:bg-black">
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(characterSchema) }}
+      />
+
       {/* Hero */}
       <section
         className="py-24 text-white relative overflow-hidden"
@@ -168,7 +231,7 @@ export default async function CharacterPage({ params }: Props) {
           </div>
 
           {/* Ideal For */}
-          <div>
+          <div className="mb-12">
             <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
               {t('mightBe', { name })}
             </h3>
@@ -184,6 +247,137 @@ export default async function CharacterPage({ params }: Props) {
               ))}
             </ul>
           </div>
+
+          {/* MBTI Deep Dive Section - Only for main characters */}
+          {hasDeepDive && tDeep && (
+            <>
+              <div className="mb-12">
+                <h2 className="text-3xl font-black mb-8 text-gray-900 dark:text-white">
+                  {tDeep('mbtiAnalysis.title')}
+                </h2>
+                <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
+                  {tDeep('mbtiAnalysis.intro')}
+                </p>
+
+                <div className="space-y-6">
+                  {[0, 1, 2, 3].map((index) => {
+                    try {
+                      const section = tDeep.raw(`mbtiAnalysis.sections.${index}`);
+                      return (
+                        <div
+                          key={index}
+                          className="rounded-2xl p-6 border-2"
+                          style={{
+                            borderColor: `${character.color}30`,
+                            backgroundColor: `${character.color}05`
+                          }}
+                        >
+                          <h3 className="text-xl font-bold mb-3" style={{ color: character.color }}>
+                            {section.trait}
+                          </h3>
+                          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                            {section.description}
+                          </p>
+                          <div className="bg-white dark:bg-zinc-900 rounded-xl p-4 border-l-4" style={{ borderColor: character.color }}>
+                            <p className="text-sm text-gray-600 dark:text-gray-400 italic">
+                              <strong>Example:</strong> {section.example}
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    } catch (e) {
+                      return null;
+                    }
+                  })}
+                </div>
+              </div>
+
+              {/* Memorable Moments */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-black mb-8 text-gray-900 dark:text-white">
+                  Memorable Character Moments
+                </h2>
+                <div className="grid md:grid-cols-3 gap-6">
+                  {[0, 1, 2].map((index) => {
+                    try {
+                      const moment = tDeep.raw(`memorableMoments.${index}`);
+                      return (
+                        <div
+                          key={index}
+                          className="rounded-2xl p-6 hover:scale-105 transition-all"
+                          style={{
+                            backgroundColor: `${character.color}10`,
+                            borderLeft: `4px solid ${character.color}`
+                          }}
+                        >
+                          <div className="text-3xl mb-3">{character.emoji}</div>
+                          <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
+                            {moment.title}
+                          </h3>
+                          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
+                            {moment.description}
+                          </p>
+                          <div className="flex items-center justify-between text-sm">
+                            <span className="text-gray-500 dark:text-gray-400">{moment.season}</span>
+                            <span
+                              className="px-3 py-1 rounded-full text-white font-semibold text-xs"
+                              style={{ backgroundColor: character.color }}
+                            >
+                              {moment.trait}
+                            </span>
+                          </div>
+                        </div>
+                      );
+                    } catch (e) {
+                      return null;
+                    }
+                  })}
+                </div>
+              </div>
+
+              {/* Are You Like [Character]? Self-Test */}
+              <div className="mb-12">
+                <div
+                  className="rounded-3xl p-8 md:p-12"
+                  style={{
+                    background: `linear-gradient(135deg, ${character.color}15, ${character.secondaryColor}15)`
+                  }}
+                >
+                  <h2 className="text-3xl font-black mb-6 text-center text-gray-900 dark:text-white">
+                    {tDeep('areYouLike.title')}
+                  </h2>
+                  <div className="max-w-2xl mx-auto">
+                    <ul className="space-y-4 mb-8">
+                      {[0, 1, 2, 3, 4, 5, 6, 7].map((index) => {
+                        try {
+                          const question = tDeep(`areYouLike.questions.${index}`);
+                          return (
+                            <li key={index} className="flex items-start gap-3 bg-white dark:bg-zinc-900 p-4 rounded-xl">
+                              <div
+                                className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-sm"
+                                style={{ backgroundColor: character.color }}
+                              >
+                                {index + 1}
+                              </div>
+                              <span className="text-gray-700 dark:text-gray-300">{question}</span>
+                            </li>
+                          );
+                        } catch (e) {
+                          return null;
+                        }
+                      })}
+                    </ul>
+                    <div
+                      className="text-center p-6 rounded-2xl text-white font-bold text-lg"
+                      style={{ background: `linear-gradient(135deg, ${character.color}, ${character.secondaryColor})` }}
+                    >
+                      {tDeep('areYouLike.result')}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </section>
 
